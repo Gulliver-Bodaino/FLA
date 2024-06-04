@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=1, user-scalable=0" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="common/css/import.css" media="all" />
+<script type="text/javascript" src="common/js/common.js" charset="utf-8"></script>
+</head>
+<body>
+<div id="wrapper" class="top"><a name="page_top" id="page_top"></a> 
+  
+  <!--navi start-->
+  <p id="application_form_logo"><img src="./images/common/logo.gif"></p>
+  <!--navi end-->
+  <div id="main-vis"></div>
+  <!--contents start--> 
+  <a name="content_top" id="content_top"></a> 
+  <!--contents start-->
+  <div id="contents"> 
+    <!--main start-->
+    <div id="application_form">
+      <h1 class="application_form_main_title">お支払い情報入力</h1>
+      <!--box start-->
+      <article id="credit" class="box">
+        <div class="application_form_cont ">
+          <h3 class="selection_box_tit">お支払情報<span class="hissu">(必須)</span></h3>
+          <table class="main_table">
+            <tbody>
+              <tr>
+                <th>カード名義<span class="hissu">（必須）</span></th>
+                <td><input name="card_mei" type="text" class="w35p" id="card_mei" placeholder="例：TARO" value="">　<input name="card_sei" type="text" class="w35p" id="card_sei" placeholder="例：YAMADA" value="">
+                  <div class="error_box">必須項目です。</div></td>
+              </tr>
+              <tr>
+                <th>カード番号<span class="hissu">（必須）</span></th>
+                <td><input name="card_mei" type="text" class="w95p" id="card_mei" placeholder="例：カード番号" value="">
+                  <div class="error_box">必須項目です。</div></td>
+              </tr>
+              <tr>
+                <th>有効期限<span class="hissu">（必須）</span></th>
+                <td><select name="card_m" id="card_m" class="w20p">
+                    <option value="">--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+                  月
+                  <select name="card_y" id="card_y" class="w20p">
+                    <option value="">--</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                  </select>
+                  年
+                  <div class="error_box">必須項目です。</div></td>
+              </tr>
+              <tr>
+                <th>セキュリティコード<span class="hissu">（必須）</span></th>
+                <td><input name="security_code" type="text" class="w95p" id="security_code" placeholder="例：セキュリティ番号" value="">
+                  <div class="error_box">必須項目です。</div></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+      <!--box end--> 
+      
+      <!--box start-->
+      <article id="total" class="box">
+        <div class="total_btn align_c"><a href="#" class="link_btn">内容確認へ</a></div>
+      </article>
+      <!--box end--> 
+      
+    </div>
+    <!--main end--> 
+  </div>
+  <!--contents end--> 
+  
+  <!-- footer start --> 
+  < 
+  <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script> 
+  <!-- footer end --> 
+</div>
+</body>
+</html>

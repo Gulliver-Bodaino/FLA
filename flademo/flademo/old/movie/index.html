@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<title>movie</title>
+<script "text/javascript"  src="jquery.min.js"></script>
+<!-- css -->
+<style type="text/css">
+/* 　一度画像を全てを非表示にして、absoluteを指定して画像を重ねる */
+    #stage img{
+        display:none;
+        position: absolute;
+    }
+
+    #stage #img1{
+        /* 1枚目の画像だけを表示 */
+        display:block;
+    }
+</style>
+
+<script type="text/javascript">
+    var flg=1;    //flgに初期値1をセット
+
+    $(function(){
+
+        setInterval(function() {
+            switch(flg){
+                case 1:　//flgが1の場合
+                    //1枚目から2枚目に切り替え
+                    $("#img1").fadeOut(1000);
+                    $("#img2").fadeIn(1000);
+                    break;
+
+                case 2:　//flgが2の場合
+                    //2枚目から3枚目に切り替え
+                    $("#img2").fadeOut(1000);
+                    $("#img3").fadeIn(1000);
+                    break;
+
+                case 3:　//flgが3の場合
+                    //3枚目から4枚目に切り替え
+                    $("#img3").fadeOut(1000);
+                    $("#img4").fadeIn(1000);
+                    break;
+
+                case 4:　//flgが4の場合
+                    //4枚目から5枚目に切り替え
+                    $("#img4").fadeOut(1000);
+                    $("#img5").fadeIn(1000);
+                    break;
+
+                case 5:　//flgが5の場合
+                    //5枚目から6枚目に切り替え
+                    $("#img5").fadeOut(1000);
+                    $("#img6").fadeIn(1000);
+                    break;
+
+                case 6:　//flgが6の場合
+                    //6枚目から7枚目に切り替え
+                    $("#img6").fadeOut(1000);
+                    $("#img1").fadeIn(1000);
+                    break;
+
+
+
+            }
+
+
+//ここのflg>2は画像枚数と同じ数字をいれると１枚目に戻る
+
+            flg++;
+            if(flg>6){
+                flg=1;    //flgが5を越えたら1に戻る
+            }
+
+        }, 6000);    //setInterval()で8秒間隔で繰り返し実行する
+    });
+</script>
+
+
+</head>
+	<body topmargin="0" marginheight="0" leftmargin="0" marginwidth="0">
+<div id="stage">
+
+<img src="img/main_img01.jpg" width="951" id="img1" border="0"><!--20周年-->
+<img src="img/main_img02.jpg" width="951" id="img2" border="0"><!--まだ大人に-->
+<a href="http://sub1.lv8.jp/shoseki/" target="_top"><img src="img/main_img03.jpg" width="951" id="img3" border="0"></a><!--書籍-->
+<a href="http://sub1.lv8.jp/juken/kouza.html" target="_top"><img src="img/main_img04.jpg" width="951" id="img4" border="0"></a><!--合格講座-->
+<a href="http://sub1.lv8.jp/shoseki/" target="_top"><img src="img/main_img05.jpg" width="951" id="img5" border="0"></a><!--書籍-->
+<img src="img/main_img06.jpg" width="951" id="img6" border="0"><!--仲間入り-->
+
+</div>
+
+	</body>
+</html>
