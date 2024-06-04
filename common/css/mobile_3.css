@@ -1,0 +1,536 @@
+@charset "UTF-8";
+@media only screen and (max-width:1500px) {
+  
+}
+
+@media only screen and (max-width:980px) {
+  
+}
+
+@media only screen and (max-width:800px) {
+  /*  recipe
+-----------------------------------------------------------------------------*/
+  #recipe #detail_contents #page_title { margin-top: 0px; }
+
+#recipe #detail_contents #recipe_main_box {
+  margin-bottom: 15px;
+  background: none;
+}
+
+#recipe #detail_contents #recipe_main_box #r_m_box { padding: 0 15px 5px 15px; }
+
+#recipe #detail_contents #recipe_main_box #r_m_box ul li {
+  margin-bottom: 10px;
+  width: 100%;
+  float: none;
+}
+
+#recipe #detail_contents #recipe_main_box #r_m_box ul li .r_m_box_photo img {
+  width: 100%;
+  height: auto;
+}
+
+#recipe #detail_contents #rm_list_navi { margin-bottom: 15px; }
+
+#recipe #detail_contents #rm_list_navi li {
+  text-align: center;
+  margin: 0 1% 5px 1%;
+  width: 48%;
+  float: left;
+}
+
+#recipe #detail_contents #rm_list_navi li img {
+  width: 90%;
+  height: auto;
+}
+
+#recipe #detail_contents .rm_list_title { margin-bottom: 15px; }
+
+#recipe #detail_contents .rm_list_title span {
+  width: 100%;
+  display: block;
+  position: static;
+}
+
+#recipe #detail_contents .rml_list_box {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+#recipe #detail_contents .rml_list_box li {
+  margin: 0;
+  padding-bottom: 0px;
+  width: 48%;
+}
+
+#recipe #detail_contents .rml_list_box li:nth-child(3n+2) { margin: 0; }
+#recipe #detail_contents .rml_list_box li:nth-child(odd) { margin: 0 15px 40px 0; }
+#recipe #detail_contents .rml_list_box li dt { height: 155px !important; }
+#recipe #detail_contents #recipe_page_title { margin: 0 0 0 0px; }
+#recipe_index { padding: 0 0 15px 0px; }
+
+#recipe_tit {
+  font-size: 18px;
+  color: #f67d50;
+  margin-bottom: 15px;
+  padding: 10px 0 15px 0px;
+  background: url(../../recipe/img/cook_img_01.gif) repeat-x 0% 100%;
+}
+
+#recipe_index ul li {
+  margin-bottom: 5px;
+  padding-left: 30px;
+  background: no-repeat 0% 50%;
+}
+
+#recipe_img { margin: 10px; }
+#recipe .box_in { padding: 15px 10px 15px 10px; }
+.pc { display: none; }
+.sp { display: block; }
+
+#recipe_mat div.recipe_ziryou {
+  margin-bottom: 15px;
+  width: 100%;
+  float: none !important;
+}
+
+#recipe_mat div dl dt {
+  width: 66%;
+  float: left;
+    background: url(../../recipe/img/recipe_ten.gif) repeat-x 40% 6px;
+}
+
+#recipe_mat div dl dd {
+  width: 34%;
+  float: right;
+    background: url(../../recipe/img/recipe_ten.gif) repeat-x 41.7% 6px;
+}
+
+#recipe_make ul li { margin-bottom: 0px; }
+#recipe .div_line { height: 20px; }
+
+#recipe_onepoint h4 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 70px 0 15px 0px;
+  background-position: 50% 0% !important;
+}
+
+/*  column
+-----------------------------------------------------------------------------*/
+#column .tit h4 { width: 50%; }
+#column .tit p { width: 50%; }
+#column_main h3 { text-align: right; }
+#column #column2_main .tit01 { padding-top: 0px; }
+
+#column #column2_main .tit h4 {
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 5px;
+  width: 70%;
+  float: left;
+}
+
+#column #column2_main .tit p {
+  font-size: 12px;
+  text-align: right;
+  padding-bottom: 5px;
+  padding-top: 25px;
+  width: 20%;
+  float: right;
+}
+
+#column ul li {
+  margin: 0 0 8px 0px;
+  padding: 30px 0px 10px 0px;
+  background: 0% 0% no-repeat;
+}
+
+#column2_main ul li {
+  margin: 0 0 10px 0px;
+  padding: 0 0 0 25px;
+}
+
+#column #column_tit {
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+
+#column #column_page_title {
+  text-align: right;
+  padding-top: calc(73 / 320 * 100%);
+  width: 100%;
+  height: 0;
+  background: url("../../column/img/month_main_tit.gif") center center / cover no-repeat;
+  position: relative;
+}
+
+#column #column_page_title img { display: none; }
+
+#column #column_page_title .c_p_tit {
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+  font-size: 12px;
+  line-height: 19px;
+  text-align: center;
+  padding-bottom: 0;
+  padding-top: 4.5%;
+  width: 36%;
+  height: 65%;
+  top: 50%;
+  right: -14%;
+  left: auto;
+  bottom: 50%;
+  background-color: #fff;
+  position: absolute;
+}
+
+#column #column_page_title .c_p_tit .month_tit {
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+#column #column_img {
+  text-align: center;
+  margin: 0 auto 10px auto;
+  display: block;
+  float: none;
+}
+
+#column #column_txt { padding-bottom: 20px; }
+#column #column_txt p { padding-bottom: 15px; }
+#column #column_btn { text-align: center; }
+
+#column #column_btn a {
+  color: #fff;
+  margin-right: 5px;
+  padding: 5px;
+  width: 48%;
+  display: inline-block;
+}
+
+#column #column_btn a:nth-child(2) { margin-right: 0; }
+
+#column #column_btn a.column_btn_c01 {
+  margin-bottom: 5px;
+  background-color: #fd6a00;
+}
+
+#column #column_btn a.column_btn_c02 { background-color: #ff9232; }
+
+#column #column_btn a img {
+  vertical-align: baseline;
+  padding: 0 0 0 10px;
+}
+
+#column #column_btn a img.column_img_pd { padding: 0 10px 0 0; }
+
+/*  event
+-----------------------------------------------------------------------------*/
+#event #event_page_title {
+  
+}
+
+#event #event_main { padding: 0 18px 18px 18px; }
+
+#event .box_in h3 {
+  text-size: 16px;
+  text-weight: normal;
+  color: #5c9aea;
+  text-align: center;
+  padding: 55px 0 660px 0;
+}
+
+#event .pdf_title {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+#event #event_main2 { padding: 20px 0 0; }
+
+#event .btn_link {
+  font-size: 14px;
+  font-weight: normal;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 10px;
+  width: 60%;
+  display: block;
+  background: #fd6a00;
+}
+
+/*  dantai
+-----------------------------------------------------------------------------*/
+#dantai .box_in { padding: 0 10px 0 10px; }
+
+#dantai h3 {
+  font-size: 18px;
+  color: #ff4e20;
+}
+
+#dantai .color_box {
+  
+}
+
+#dantai .tel_box { padding: 0 10% 30px 10%; }
+.br_sp { display: block; }
+
+#dantai .p_l {
+  text-align: center;
+  margin-bottom: 15px;
+  width: auto;
+  float: none !important;
+}
+
+#dantai .p_r {
+  font-size: 14px;
+  width: auto;
+  float: none !important;
+}
+
+#dantai .div_line {
+  height: 40px;
+  background: url(../../dantai/img/index_line.png) 50% 0% no-repeat;
+}
+
+#dantai #one_point h3 { text-align: center; }
+#dantai #one_point h3 span { font-size: 22px; }
+
+#dantai #one_point .color_box {
+  text-align: center;
+  margin: 0 10px 20px;
+  padding: 10px;
+  border: 1px dotted #ff6b00;
+}
+
+#dantai #one_point .color_box .official {
+  font-size: 13px;
+  display: block;
+}
+
+#dantai #one_point .color_box .revision {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin: 5px 0 3px 0;
+  padding: 3px 0;
+  width: 24%;
+  background-color: #fd6a00;
+}
+
+#dantai #one_point .color_box .book_title {
+  font-size: 22px;
+  line-height: 28px;
+  vertical-align: unset;
+  padding-bottom: 8px;
+  display: block;
+}
+
+#dantai #one_point .color_box .issue {
+  font-size: 11px;
+  font-weight: normal;
+  color: #000;
+  display: block;
+}
+
+#dantai #one_point .book_img_box {
+  text-align: center;
+  display: block;
+}
+
+#dantai #one_point .book_img {
+  padding: 0 0px 20px 0px;
+  float: none !important;
+}
+
+#dantai #one_point h4 {
+  
+}
+
+#dantai #one_point p { padding-bottom: 20px; }
+
+#dantai #one_point .color_box2 {
+  margin: 0 0 30px 0;
+  padding: 10px 15px 10px 15px;
+}
+
+#dantai #one_point .color_box2 h4 { padding: 10px 0 0; }
+#dantai #dantai_message h5 { text-align: center; }
+
+#dantai #dantai_message h5 span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6b00;
+  margin-bottom: 10px;
+  border-bottom: 5px solid #fff000;
+  display: inline-block;
+}
+
+#dantai #one_point .color_box2 p {
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+#dantai .contact_box dt {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  padding: 10px;
+  background: #f1bb38;
+}
+
+#dantai .pc { display: block; }
+#dantai .sp { display: none; }
+
+#dantai #dantai_message h2 {
+  text-align: center;
+  margin: 35px 0 30px;
+}
+
+#dantai #dantai_message h3 {
+  font-weight: normal;
+  color: #000;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#dantai .yakusyoku { font-size: 12px; }
+
+/*  gokaku
+-----------------------------------------------------------------------------*/
+#gokaku .page_title {
+  text-align: center;
+  padding-top: calc(73 / 327 * 100%);
+  width: 100%;
+  height: 0;
+  background: url(../../gokaku/img/interview_tit.gif) center center / cover no-repeat ;
+  position: relative;
+}
+
+#gokaku .page_title .title_txt {
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+  font-size: 24px;
+  color: #555;
+  margin: 0;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+#gokaku .page_title .txt_s {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 14px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+#gokaku #gokaku_img {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 0;
+  float: none !important;
+}
+
+#gokaku .pc { display: block; }
+#gokaku .sp { display: none; }
+
+#gokaku h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#gokaku p {
+  
+}
+
+#gokaku rb { font-size: 18px; }
+#gokaku rt { font-size: 12px; }
+#gokaku .ruby { display: inline; }
+
+#gokaku .ruby dd {
+  font-size: 12px;
+  letter-spacing: 5px;
+  line-height: 12px;
+  padding: 0 24px 2px 0;
+}
+
+#gokaku .ruby dd.ruby_s1 { letter-spacing: 3px; }
+#gokaku .ruby dt { font-size: 18px; }
+#gokaku .ruby dt span { font-size: 12px; }
+#gokaku .box_in { padding-bottom: 25px; }
+
+/*  tusin
+-----------------------------------------------------------------------------*/
+#tusin .img_r {
+  margin: 0 auto;
+  padding: 0 0 10px 0px;
+  display: block;
+  float: none;
+}
+
+#tusin #page_title h2 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+}
+
+#tusin #vege_sp_page_title {
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: url(../../img/bg_stripe.gif) 0 0;
+}
+
+#tusin .vege_certification {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#tusin .vege_certification img { width: 80%; }
+#tusin .vege_banner { text-align: center; }
+
+#tusin .contact_box2 .url {
+width: 92%;
+margin: 0 auto;
+}
+#tusin .contact_box2 .url a {
+display: block;
+width: 100%;
+font-size: 12px;
+  padding: 14px 10px 14px 20px;
+}
+#tusin .contact_box2 .tel {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 100%;
+    vertical-align: top;
+    padding: 10px 0 10px 40px;
+    display: inline-block;
+    background: url(../../img/icon_tel.gif) no-repeat 0 5px;
+}
+
+
+}
+
+@media only screen and (max-width:361px) {
+  
+}
+
+@media not screen and (1) {
+  .page-top { position: static; }
+
+}
+
+*//* Opera10??? */
