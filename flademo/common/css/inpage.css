@@ -240,7 +240,7 @@ sub{top:.5ex;}
 
 
 #top_banner{padding:10px 0;}
-#top_kentei{width:100%;display:flex;flex-flow:row wrap;align-items:center;justify-content:center;color:#fff;border:5px solid #ff6b00;min-height:328px;background:#ff6b00;margin-top:10px;/*フォームコメントアウト時に入れたので解除したらこの指定を取る*/
+#top_kentei{width:100%;display:flex;flex-flow:row wrap;align-items:center;justify-content:center;color:#fff;border:5px solid #ff6b00;min-height:328px;background:#ff6b00;margin-bottom:10px;/*フォームコメントアウト時に入れたので解除したらこの指定を取る*/
 }
 #top_kentei #top_kentei_tit{letter-spacing:2px;text-align:center;width:446px;}
 #top_kentei #top_kentei_tit p{font-family:"Yu Mincho", "YuMincho", serif;display:inline-block;}

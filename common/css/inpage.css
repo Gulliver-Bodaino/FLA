@@ -240,7 +240,7 @@ sub{top:.5ex;}
 
 
 #top_banner{padding:10px 0;}
-#top_kentei{width:100%;display:flex;flex-flow:row wrap;align-items:center;justify-content:center;color:#fff;border:5px solid #ff6b00;min-height:328px;background:#ff6b00;margin-top:10px;/*フォームコメントアウト時に入れたので解除したらこの指定を取る*/
+#top_kentei{width:100%;display:flex;flex-flow:row wrap;align-items:center;justify-content:center;color:#fff;border:5px solid #ff6b00;min-height:328px;background:#ff6b00;margin-bottom:10px;/*フォームコメントアウト時に入れたので解除したらこの指定を取る*/
 }
 #top_kentei #top_kentei_tit{letter-spacing:2px;text-align:center;width:446px;}
 #top_kentei #top_kentei_tit p{font-family:"Yu Mincho", "YuMincho", serif;display:inline-block;}
@@ -479,6 +479,8 @@ text-align:center;margin:0 auto;}
 #recipe_make ul li#make_7{background-image:url(../../recipe/img/cook_img_13.gif);}
 #recipe_make ul li#make_8{background-image:url(../../recipe/img/cook_img_14.gif);}
 #recipe_make ul li#make_9{background-image:url(../../recipe/img/cook_img_15.gif);}
+#recipe_make ul li#make_10{background-image:url(../../recipe/img/cook_img_17.gif);}
+#recipe_make ul li#make_11{background-image:url(../../recipe/img/cook_img_18.gif);}
 #recipe .div_line{height:40px;background:url(../../img/line_set.gif) no-repeat 50% 0%;}
 /*#recipe_onepoint h4{background:url(../../img/img_onepoint.gif) no-repeat 0% 0%;padding:30px 0 20px 130px;margin-bottom:20px;font-size:24px;font-weight:normal;color:#f67d50;}
 */

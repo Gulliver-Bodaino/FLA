@@ -1,108 +1,61 @@
 #!/usr/bin/perl
+use CGI::Carp qw(fatalsToBrowser);
+use lib 'sys-perl/lib';
+use utf8;
+use HTML::Template;
+use Unicode::Japanese qw(unijp);
 
-require 'cgi-lib.pl';
-require 'jcode.pl';
+our ( %dir, %cmd, %in, %replace, $TMPL, %error, $sid_path, @mail_template );
 
+%dir = (
+    'db'     => 'sys-perl/db',
+    'script' => 'sys-perl/script',
+);
 
-&shutoku;
+%cmd = (
+    ''        => '01_form.pl',
+    'conf'    => '02_conf.pl',
+    'send'    => '03_thanks.pl',
+    'KOUMOKU' => 'KOUMOKU.pl',
+);
 
-&outputdata;
+# メールテンプレート
+@mail_template = (
+    './tmpl-admin.txt',    # 管理者に送信
 
+    './tmpl-user.txt',     # 投稿者に送信
+);
 
-sub shutoku {
-
-$formin = $ENV{'QUERY_STRING'};
-
-@indata = split (/&/,$formin); #受け取ったデータを＆で区切り、配列へ
-
-##ここから配列のサンプルはコメントアウト
-
-#$zzz = @indata;
-
-#$aaa = $indata[0];
-#$bbb = $indata[1];
-#$ccc = $indata[2];
-#$ddd = $indata[3];
-
-#$eee = $aaa + $bbb + $ccc+ $ddd;
-
-#if($eee == 1000){
-
-#$fff = "good";
-
-#}
-
-
-
-foreach $tmp (@indata) #フォームの要素分（配列分）以下の処理を繰り返す
-{
-	$unique = $tmp; 
+if ( !-w "$dir{'db'}" ) {
+    print "Content-Type: text/html; charset=utf-8\n\n";
+    print qq| $dir{'db'} の パーミッションを 777にしてください |;
+    exit;
+}
+if ( grep { !-e $_ } @mail_template ) {
+    print "Content-Type: text/html; charset=utf-8\n\n";
+    print 'メールテンプレートが見つかりません';
+    exit;
 }
 
+require "$dir{'script'}/lib.pl";
 
+main();
 
+#===============
+# HTML出力
+#===============
+my $template = HTML::Template->new(
+    loop_context_vars => 1,
+    die_on_bad_params => 0,
+    filename          => $TMPL,
+);
+
+for my $key ( keys %replace ) {
+    $template->param( $key => $replace{$key} );
 }
 
+print "Content-Type: text/html; charset=utf-8\n\n";
+print $template->output;
+exit;
 
-##########確認ページ##########
-sub outputdata {
-print "Content-type: text/html\n\n";
-
-print <<EOM;
-
-
-
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html;charset=Shift_JIS">
-		<meta http-equiv="Content-Style-Type" content="text/css">
-		<meta http-equiv="Content-Script-Type" content="text/javascript">
-		<meta name="description" content="">
-		<meta name="keywords" content="">
-		<title>アンケート</title>
-		<link rel="Stylesheet" title="Plain" href="g.css" type="text/css">
-<script language="javascript">
-var NN = (navigator.appName == "Netscape") ;
-var IE = (navigator.appName.charAt(0) == "M") ;
-var ver4 = (navigator.appVersion.charAt(0) == "4") ;
-var ver3 = (navigator.appVersion.charAt(0) == "3") ;
-var NN4 = NN && ver4 ;
-var NN3 = NN && ver3 ;
-var IE4 = IE && ver4 ;
-function Pull_Jump()
-{
-//	Sel=document.itiran.pull_menu.selectedIndex;
-//	Ms=document.itiran.pull_menu.options[Sel].value;
-
-	Ms="../index.html";
-	window.parent.top.location.href=Ms;
-}
-
-function IN (n,m)
-{
-	if (NN4 || NN3 || IE4)
-	{
-		if (m == 0)
-		{
-			document.images[n].src = "img/mi" + n + ".gif";
-		}
-		else
-		{
-			document.images[n].src = "img/mo" + n + ".gif";
-		}
-	}
-}
-</script>
-
-
-
-	</head>
-	<body onload="Pull_Jump()">
-	</body>
-</html>
-
-
-
-EOM
-}
-
+1;

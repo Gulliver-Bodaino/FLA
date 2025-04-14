@@ -3,6 +3,7 @@
 # AuthUserFile /home/vuser09/1/0/0085801/www.flanet.jp/application_form/.htpasswd
 # Require valid-user
 #= 3357b4ad928439f09976d2b5e2f09c9c
+#ErrorDocument 503 /application_form/maintenance.html
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
@@ -11,6 +12,10 @@
     RewriteEngine On
 
     RewriteBase /application_form
+
+    #RewriteCond %{REQUEST_URI} !maintenance.html
+    #RewriteCond %{REMOTE_ADDR} !121.1.155.116
+    #RewriteRule ^.*$ - [R=503,L]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .

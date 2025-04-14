@@ -5,7 +5,7 @@
         <p class="tel_btn" x-ms-format-detection="none"><span class="tel_ttl">検定事務局</span><img src="/img/foot_tel.gif" width="29" height="29" alt="tel" />0120-86-3593<br />
         <span class="tel_ttl">Academy事務局</span><img src="/img/foot_tel.gif" width="29" height="29" alt="tel" />0120-20-9039
         <span>受付時間 平日10:00~16:00</span></p>
-          <p id="privacy_mark"><a href="https://privacymark.jp/" target="_blank"><img src="/privacy/img/pmarklogo.gif" width="57" height="61"></a></p>
+          <!--p id="privacy_mark"><a href="https://privacymark.jp/" target="_blank"><img src="/privacy/img/pmarklogo.gif" width="57" height="61"></a></p--><!--Pマーク取ったら差替え時に使用-->
           </div>
       <div id="booter_link" class="cb">
         <dl>
@@ -16,8 +16,8 @@
           <dd><a href="/ado/fukugo.html">プラスα複合資格</a></dd>
           <dt>個人受験</dt>
           <dd><a href="/juken/kentei.html">食生活アドバイザー® 検定とは</a></dd>
-          <!--dd><a href="https://flanet.jp/kobetsu/" target="_blank">個人受験申込方法について</a></dd-->
-          <!--dd><a href="https://flanet.jp/pdf/annai51.pdf" target="_blank">個人受験案内</a></dd-->
+          <dd><a href="https://flanet.jp/kobetsu/" target="_blank">個人受験申込方法について</a></dd>
+          <dd><a href="https://shoku-ad.jp/pdf/annai53.pdf" target="_blank">個人受験案内</a></dd>
           <dd><a href="/juken/">試験概要</a></dd>
           <dd><a href="/juken/kouza.html">合格講座概要</a></dd>
               <dd><a href="/juken/kouza3.html">3級カリキュラム</a></dd>
@@ -43,14 +43,16 @@
          </dd>
           <dd class="btm_border"><a href="/qa/">Q&amp;A（よくある質問）</a></dd>
         </dl>
+
+<!--中央ブロック-->
         <dl>
           <dt>願書請求 </dt>
           <dd><a href="/gansho/">願書請求の流れ</a></dd>
-<!--フォーム-->
-          <!--dd><a href="/pdf/m_202405.pdf" target="_blank">願書請求フォーム</a></dd-->
-          <!--dd><a href="https://flanet.jp/application_form/form_b" target="_blank">願書請求フォーム</a></dd-->
-          <!--dd><a href="/pdf/oshirase20240206.pdf" target="_blank">受験申込フォーム</a></dd-->
-          <!--dd><a href="https://flanet.jp/application_form/form_a" target="_blank">受験申込フォーム</a></dd-->
+<!--フォームab-->
+          <!--dd><a href="/pdf/kentei20241225g.pdf" target="_blank">願書請求フォーム</a></dd-->
+          <dd><a href="https://flanet.jp/application_form/form_b" target="_blank">願書請求フォーム</a></dd>
+          <!--dd><a href="/pdf/kentei20241225c.pdf" target="_blank">受験申込フォーム</a></dd-->
+          <dd><a href="https://flanet.jp/application_form/form_a" target="_blank">受験申込フォーム</a></dd><!--受験申込終了後過去問題集販売終了まで表示-->
 <!--フォームここまで-->
 
           <dt><a href="/tusin/">通信講座</a></dt>
@@ -68,11 +70,11 @@
           <dt>受験（資格関連情報）</dt>
           <dd><a href="/dantai/">団体受験</a></dd>
 
-          <dd><a href="/dantai/pdf/dantai_annai20240510.pdf">団体受験案内</a></dd>
+          <dd><a href="/dantai/pdf/dantai_annai20241225.pdf">団体受験案内</a></dd>
 
-          <dd><a href="/dantai/pdf/demae51.pdf">出前講座</a></dd>
+          <dd><a href="/dantai/pdf/demae52.pdf">出前講座</a></dd>
 <!--PDFリンク時-->
-          <!--dd><a href="/dantai/pdf/dantai_mousikomi202405.pdf" target="_blank">団体受験お申込み</a></dd-->
+          <dd><a href="/dantai/pdf/dantai_mousikomi20241225.pdf" target="_blank">団体受験お申込み</a></dd>
 <!--団体受験フォーム-->
           <!--dd><a href="https://flanet.jp/dantai_form/" target="_blank">団体受験お申込み</a></dd-->
 
@@ -88,6 +90,8 @@
           <dd class="btm_border"><a href="https://jpsk.jp/article/award2019.html" target="_blank">「日本の資格・検定」AWARDS 2019</a></dd>
 -->
         </dl>
+
+<!--右ブロック-->
         <dl class="no_dl">
           <dt><a href="/kyokai/">協会情報</a></dt>
           <dd><a href="/kyokai/">会長のごあいさつ</a></dd>
@@ -109,9 +113,9 @@
           <dt>食アド<sub>®</sub> &  野スぺ<sub>®</sub></dt>
 					<dd><a href="https://shoku-ad.jp/club2022/newstable/">月刊ニューステーブル</a></dd>
 
-          <dt><a href="/privacy/index2.html">Pマーク</a></dt>
+          <dt><a href="/privacy/index2.html">個人情報</a></dt>
           <dd><a href="/privacy/index2.html">個人情報保護方針</a></dd>
-          <dd><a href="/privacy/index3.html">個人情報の利用目的の公表、<br />及び開示等に応じる手続き</a></dd>
+          <!--dd><a href="/privacy/index3.html">個人情報の利用目的の公表、<br />及び開示等に応じる手続き</a></dd-->
 
           <dt class="btm_border"><a href="https://flanet.jp/torihikihou/index.html">特定商取引に基づく表記</a></dt>
 

@@ -27,7 +27,7 @@
 	  </li>
       <li class="navi07"><a class="color_change" href="/pass/">合格講座</a></li>
       <li class="navi03"><a class="color_change" href="/dantai/">団体受験案内</a></li>
-      <li class="navi04"><a class="color_change" href="/academy/">食アド<sub class="topnavi_sub">®</sub>Academy</a>
+      <li class="navi04"><a class="color_change" href="https://shoku-ad.jp/club2022/academy/">食アド<sub class="topnavi_sub">®</sub>Academy</a>
       <ul class="navi_dropdown">
 <!--フォーム-->
 <!--
@@ -54,7 +54,7 @@
       <li class="navi01"><a href="/">TOPページ</a></li>
       <li class="navi02"><a href="/juken/">個人受験案内</a></li>
       <li class="navi03"><a a href="/dantai/">団体受験案内</a></li>
-      <li class="navi04"><a href="/academy/">食アド<sup>®</sup>アカデミー</a></li>
+      <li class="navi04"><a href="https://shoku-ad.jp/club2022/academy/">食アド<sup>®</sup>アカデミー</a></li>
       <li class="navi05"><a href="/shoseki/">書籍案内/過去問題集</a></li>
       <li class="navi06"><a href="/qa/">Q&amp;A</a></li>
     </ul>
@@ -65,7 +65,7 @@
       <li class="header_link04"><a href="/sitemap/">サイトマップ</a></li>
     </ul>
     <div id="header_secrch">
-<form method=get action="http://www.google.co.jp/search">
+<form method=get action="https://www.google.co.jp/search">
         <p class="header_search_box">
 		<input type="hidden" name="hl" value="ja">
 		<input type="hidden" name="ie" value="utf-8">
