@@ -1,0 +1,40 @@
+From: <TMPL_VAR mail>
+To: fla.dantai@flanet.jp
+Subject: 【<TMPL_VAR name1_1>様】団体受験申請がありました
+&Body&
+団体受験申請がありました。
+対応をお願いします。
+--------------------------------------------------------------
+■過去に団体受験案内の願書請求をしたことがありますか？
+<!-- TMPL_VAR q1 -->
+
+■過去に団体受験受験をしたことがありますか？
+<!-- TMPL_VAR q2 -->
+
+■企業・学校等の団体名
+<!-- TMPL_VAR group_name -->
+
+■予定受験者数※概数
+<!-- TMPL_VAR group_num -->人
+
+■氏名
+<!-- TMPL_VAR name1_1 --> <!-- TMPL_VAR name1_2 -->
+
+■フリガナ
+<!-- TMPL_VAR name2_1 --> <!-- TMPL_VAR name2_2 -->
+
+■住所
+〒<!-- TMPL_VAR zip1 --> <!-- TMPL_VAR zip2 -->
+<!-- TMPL_VAR todouhuken --><!-- TMPL_VAR city --><!-- TMPL_VAR city2 -->
+<!-- TMPL_VAR city3 -->
+<!-- TMPL_VAR city4 -->
+
+■電話番号
+<!-- TMPL_VAR tel -->
+
+■メールアドレス
+<!-- TMPL_VAR mail -->
+
+■当協会の個人情報取り扱いにご同意していただけますか？
+<!-- TMPL_VAR check -->
+--------------------------------------------------------------

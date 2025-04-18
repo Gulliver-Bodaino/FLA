@@ -1,0 +1,70 @@
+﻿@charset "utf-8";
+/*  link 
+-----------------------------------------------------------------------------*/
+a { color: #000; text-decoration:none; }
+a:visited { color: #000; text-decoration:none; }
+a:hover { color: #000; text-decoration: underline; }
+a img { border: 0; }
+
+/*  font 
+-----------------------------------------------------------------------------*/
+.txt18 { font-size: 18px; }
+.txt16 { font-size: 16px; }
+.txt15 { font-size: 15px; }
+.txt14 { font-size: 14px; }
+.txt13 { font-size: 13px; }
+.txt12 { font-size: 12px; }
+.txt11 { font-size: 11px; }
+.txt10 { font-size: 10px; }
+.txt_b { font-weight: bold; }
+
+/*	margin padding
+-----------------------------------------------------------------------------*/
+.m_b05 { margin-bottom: 5px; }
+.m_b10 { margin-bottom: 10px; }
+.m_b15 { margin-bottom: 15px; }
+.m_b20 { margin-bottom: 20px; }
+.m_b25 { margin-bottom: 25px; }
+.m_b30 { margin-bottom: 30px; }
+.m_b35 { margin-bottom: 35px; }
+.m_b40 { margin-bottom: 40px; }
+.m_b45 { margin-bottom: 45px; }
+.m_b50 { margin-bottom: 50px; }
+.m_b55 { margin-bottom: 55px; }
+.m_b60 { margin-bottom: 60px; }
+
+/*	photo 
+-----------------------------------------------------------------------------*/
+.photo_img, .photo_left, .photo_right { padding: 7px; border: #E8E8E8 1px solid; background: #FFFFFF; }
+.photo_img { margin: 0 0px 8px 0; }
+.photo_left { margin: 0 8px 8px 0; float: left; }
+.photo_right { margin: 0 0 8px 8px; float: right; }
+
+.img_photo { margin: 0 0px 8px 0; }
+.img_left { margin: 0 8px 8px 0; float: left; }
+.img_right { margin: 0 0 8px 8px; float: right; }
+
+/*	main_table 
+-----------------------------------------------------------------------------*/
+
+/*	color
+-----------------------------------------------------------------------------*/
+.red { color: #cb1f28; }
+
+/*  align
+-----------------------------------------------------------------------------*/
+.align_r { text-align: right; }
+.align_c { text-align: center; }
+.align_l { text-align: left; }
+.valign_m { vertical-align: middle; }
+.valign_t { vertical-align: top; }
+
+/*  float 
+-----------------------------------------------------------------------------*/
+.fl { float: left; }
+.fr { float: right; }
+.cb { overflow: hidden; clear: both; }
+.cb:after { content: ""; display: block; clear: both; height: 1px; overflow: hidden; }
+/*\*/
+* html .cb { height: 1em; overflow: visible; }
+/**/
