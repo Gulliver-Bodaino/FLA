@@ -1,0 +1,20 @@
+.sp   { font-size:  1px; }
+.t10  { font-size: 10px; line-height: 12px; }
+.t12  { font-size: 12px; line-height: 14px; }
+.t14  { font-size: 14px; line-height: 16px; }
+.t16  { font-size: 16px; line-height: 18px; }
+.b12  { font-size: 12px; line-height: 14px; font-weight: bold; }
+.b14  { font-size: 14px; line-height: 16px; font-weight: bold; }
+.b16  { font-size: 16px; line-height: 18px; font-weight: bold; }
+.bl14 { font-size: 14px; line-height: 20px; color: #22449C; }
+.bl12 { font-size: 12px; line-height: 16px; color: #22449C; }
+.k16  { font-size: 16px; line-height: 24px; }
+.k14  { font-size: 14px; line-height: 18px; }
+.k12  { font-size: 12px; line-height: 18px; }
+.bf   { page-break-before: always; }
+.af   { page-break-after: always; }
+body  { margin-top: 5px; }
+A:hover   { color: #66ccff; }
+A:link    { text-decoration: none; }
+A:visited { text-decoration: none; }
+A:active  { text-decoration: none; }

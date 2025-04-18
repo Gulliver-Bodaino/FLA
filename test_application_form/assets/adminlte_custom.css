@@ -1,0 +1,76 @@
+html, body {
+  font-family:
+    /*
+    "Helvetica Neue",
+    Arial,
+    */
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+
+html {
+  font-size: 14px;
+}
+
+.content-header h1 {
+  font-size: 1.6rem;
+}
+
+.table-striped thead th {
+  border-bottom: 0;
+}
+
+.table-striped thead th.primary_key {
+  width: 70px;
+}
+.table-striped thead th.enabled {
+  width: 70px;
+}
+.table-striped thead th.operation {
+  width: 145px;
+}
+
+/* 
+.table-striped tbody tr.bg-danger td {
+  text-decoration: line-through;
+}
+ */
+
+/* 削除 */
+.table-striped tbody tr.bg-danger td a {
+  color: #fff;
+}
+
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  -moz-appearance: textfield;
+}
+
+span.error {
+  display: none; 
+}
+/* 隣接セレクタで
+ * input:invalidの隣の
+ * エラーメッセージは表示する
+ */
+input:invalid + span.error {
+  display: block;
+  color: red;
+  font-size: 0.9em;
+}
+
+/* ページャー */
+.pagination {
+  justify-content: flex-end;
+}
+
+.date {
+  width: 110px !important;
+}
