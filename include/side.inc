@@ -4,8 +4,8 @@
 
 <!--個人受験-->
 <li id="side_banner25"><a href="https://flanet.jp/kobetsu/" target="_blank"><img src="/img/side_banner25.gif" alt="個人受験申込方法について" class="btnover" /></a></li>
-<li id="side_banner01"><a href="https://flanet.jp/application_form/form_b" target="_blank"><img src="/img/side_banner01.gif" alt="願書請求フォーム" class="btnover" /></a></li>
-<!--li id="side_banner01"><a href="/pdf/kentei20241225g.pdf" target="_blank"><img src="/img/side_banner01.gif" alt="願書請求フォーム" class="btnover" /></a></li-->
+<!--li id="side_banner01"><a href="https://flanet.jp/application_form/form_b" target="_blank"><img src="/img/side_banner01.gif" alt="願書請求フォーム" class="btnover" /></a></li-->
+<li id="side_banner01"><a href="/pdf/gansho20250418.pdf" target="_blank"><img src="../img/side_banner01.gif" alt="願書請求フォーム" class="btnover" /></a></li>
 <li id="side_banner02"><a href="https://flanet.jp/application_form/form_a" target="_blank"><img src="/img/side_banner02.gif" alt="受験申込フォーム" class="btnover" /></a></li>
 <!--li id="side_banner02"><a href="/pdf/kentei20241225c.pdf" target="_blank"><img src="/img/side_banner02.gif" alt="受験申込フォーム" class="btnover" /></a></li-->
 <li id="side_banner26"><a href="https://shoku-ad.jp/pdf/annai53.pdf" target="_blank"><img src="/img/side_banner26.gif" alt="個人受験案内" class="btnover" /></a></li>
