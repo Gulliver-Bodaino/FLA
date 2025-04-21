@@ -5,7 +5,9 @@
         <p class="tel_btn" x-ms-format-detection="none"><span class="tel_ttl">検定事務局</span><img src="/img/foot_tel.gif" width="29" height="29" alt="tel" />0120-86-3593<br />
         <span class="tel_ttl">Academy事務局</span><img src="/img/foot_tel.gif" width="29" height="29" alt="tel" />0120-20-9039
         <span>受付時間 平日10:00~16:00</span></p>
+          <!-- 20250421 外し 指示あり 
           <p id="privacy_mark"><a href="https://privacymark.jp/" target="_blank"><img src="/privacy/img/pmarklogo.gif" width="57" height="61"></a></p>
+          -->
           </div>
       <div id="booter_link" class="cb">
         <dl>
@@ -115,7 +117,10 @@
 
           <dt><a href="/privacy/index2.html">Pマーク</a></dt>
           <dd><a href="/privacy/index2.html">個人情報保護方針</a></dd>
+
+<!-- 20250421 トル指示 
           <dd><a href="/privacy/index3.html">個人情報の利用目的の公表、<br />及び開示等に応じる手続き</a></dd>
+-->
 
           <dt class="btm_border"><a href="https://flanet.jp/torihikihou/index.html">特定商取引に基づく表記</a></dt>
 
