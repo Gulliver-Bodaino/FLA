@@ -76,9 +76,9 @@
 
           <dd><a href="/dantai/pdf/demae53.pdf" target="_blank">出前講座</a></dd>
 <!--PDFリンク時-->
-          <!--dd><a href="/dantai/pdf/dantai_mousikomi20240927.pdf" target="_blank">団体受験お申込み</a></dd-->
+          <dd><a href="/dantai/pdf/dantai_mousikomi20250507.pdf" target="_blank">団体受験お申込み</a></dd>
 <!--団体受験フォーム-->
-          <dd><a href="https://flanet.jp/dantai_form/" target="_blank">団体受験お申込み</a></dd>
+          <!--dd><a href="https://flanet.jp/dantai_form/" target="_blank">団体受験お申込み</a></dd-->
 
           <dd><a href="/gokaku/">合格者の声 </a>　　
             <ul>
