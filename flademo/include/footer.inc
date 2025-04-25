@@ -114,14 +114,12 @@
 -->
           <dt>食アド<sub>®</sub> &  野スぺ<sub>®</sub></dt>
 					<dd><a href="https://shoku-ad.jp/club2022/newstable/">月刊ニューステーブル</a></dd>
-
-          <dt><a href="/privacy/index2.html">Pマーク</a></dt>
+          <dt><a href="/privacy/index2.html">個人情報</a></dt>
           <dd><a href="/privacy/index2.html">個人情報保護方針</a></dd>
 
 <!-- 20250421 トル指示 
           <dd><a href="/privacy/index3.html">個人情報の利用目的の公表、<br />及び開示等に応じる手続き</a></dd>
 -->
-
           <dt class="btm_border"><a href="https://flanet.jp/torihikihou/index.html">特定商取引に基づく表記</a></dt>
 
 <!--最初は class="btm_border" が一つ上の個人情報の利用目的の公表の<dd>の中にあってこれが閉じ線になっている-->
