@@ -51,8 +51,10 @@
           <dt>願書請求 </dt>
           <dd><a href="/gansho/">願書請求の流れ</a></dd>
 <!--フォームab-->
-          <dd><a href="/pdf/m_20250502.pdf" target="_blank">願書請求フォーム</a></dd>
+          <dd><a href="/pdf/gansho20250418.pdf" target="_blank">願書請求フォーム</a></dd>
           <!--dd><a href="https://flanet.jp/application_form/form_b" target="_blank">願書請求フォーム</a></dd-->
+          <!--dd><a href="/pdf/kentei20241225c.pdf" target="_blank">受験申込フォーム</a></dd-->
+          <dd><a href="https://flanet.jp/application_form/form_a" target="_blank">受験申込フォーム</a></dd><!--受験申込終了後過去問題集販売終了まで表示-->
           <!--dd><a href="/pdf/kentei20241225c.pdf" target="_blank">受験申込フォーム</a></dd-->
           <dd><a href="https://flanet.jp/application_form/form_a" target="_blank">受験申込フォーム</a></dd><!--受験申込終了後過去問題集販売終了まで表示-->
 <!--フォームここまで-->
@@ -71,14 +73,14 @@
 <!--団体受験-->
           <dt>受験（資格関連情報）</dt>
           <dd><a href="/dantai/">団体受験</a></dd>
-
           <dd><a href="https://shoku-ad.jp/pdf/dantai53.pdf" target="_blank">団体受験案内</a></dd>
 
           <dd><a href="/dantai/pdf/demae53.pdf" target="_blank">出前講座</a></dd>
 <!--PDFリンク時-->
+          <!--dd><a href="/dantai/pdf/dantai_mousikomi20240927.pdf" target="_blank">団体受験お申込み</a></dd-->
           <dd><a href="/dantai/pdf/dantai_mousikomi20250507.pdf" target="_blank">団体受験お申込み</a></dd>
 <!--団体受験フォーム-->
-          <!--dd><a href="https://flanet.jp/dantai_form/" target="_blank">団体受験お申込み</a></dd-->
+          <dd><a href="https://flanet.jp/dantai_form/" target="_blank">団体受験お申込み</a></dd>
 
           <dd><a href="/gokaku/">合格者の声 </a>　　
             <ul>
