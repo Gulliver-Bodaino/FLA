@@ -56,7 +56,6 @@
           <!--dd><a href="/pdf/kentei20241225c.pdf" target="_blank">受験申込フォーム</a></dd-->
           <dd><a href="https://flanet.jp/application_form/form_a" target="_blank">受験申込フォーム</a></dd><!--受験申込終了後過去問題集販売終了まで表示-->
           <!--dd><a href="/pdf/kentei20241225c.pdf" target="_blank">受験申込フォーム</a></dd-->
-          <dd><a href="https://flanet.jp/application_form/form_a" target="_blank">受験申込フォーム</a></dd><!--受験申込終了後過去問題集販売終了まで表示-->
 <!--フォームここまで-->
 
           <dt><a href="/tusin/">通信講座</a></dt>
@@ -80,7 +79,7 @@
           <!--dd><a href="/dantai/pdf/dantai_mousikomi20240927.pdf" target="_blank">団体受験お申込み</a></dd-->
           <dd><a href="/dantai/pdf/dantai_mousikomi20250507.pdf" target="_blank">団体受験お申込み</a></dd>
 <!--団体受験フォーム-->
-          <dd><a href="https://flanet.jp/dantai_form/" target="_blank">団体受験お申込み</a></dd>
+          <!--dd><a href="https://flanet.jp/dantai_form/" target="_blank">団体受験お申込み</a></dd-->
 
           <dd><a href="/gokaku/">合格者の声 </a>　　
             <ul>
