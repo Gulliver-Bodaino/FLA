@@ -51,10 +51,10 @@
           <dt>願書請求 </dt>
           <dd><a href="/gansho/">願書請求の流れ</a></dd>
 <!--フォームab-->
-          <dd><a href="/pdf/gansho20250418.pdf" target="_blank">願書請求フォーム</a></dd>
+          <dd><a href="/pdf/m_20250502.pdf" target="_blank">願書請求フォーム</a></dd>
           <!--dd><a href="https://flanet.jp/application_form/form_b" target="_blank">願書請求フォーム</a></dd-->
-          <dd><a href="/pdf/kentei20241225c.pdf" target="_blank">受験申込フォーム</a></dd>
-          <!--dd><a href="https://flanet.jp/application_form/form_a" target="_blank">受験申込フォーム</a></dd--><!--受験申込終了後過去問題集販売終了まで表示-->
+          <!--dd><a href="/pdf/kentei20241225c.pdf" target="_blank">受験申込フォーム</a></dd-->
+          <dd><a href="https://flanet.jp/application_form/form_a" target="_blank">受験申込フォーム</a></dd><!--受験申込終了後過去問題集販売終了まで表示-->
 <!--フォームここまで-->
 
           <dt><a href="/tusin/">通信講座</a></dt>
@@ -72,13 +72,13 @@
           <dt>受験（資格関連情報）</dt>
           <dd><a href="/dantai/">団体受験</a></dd>
 
-          <dd><a href="/dantai/pdf/dantai_annai20240927.pdf">団体受験案内</a></dd>
+          <dd><a href="https://shoku-ad.jp/pdf/dantai53.pdf" target="_blank">団体受験案内</a></dd>
 
-          <dd><a href="/dantai/pdf/demae52.pdf">出前講座</a></dd>
+          <dd><a href="/dantai/pdf/demae53.pdf" target="_blank">出前講座</a></dd>
 <!--PDFリンク時-->
-          <dd><a href="/dantai/pdf/dantai_mousikomi20240927.pdf" target="_blank">団体受験お申込み</a></dd>
+          <!--dd><a href="/dantai/pdf/dantai_mousikomi20240927.pdf" target="_blank">団体受験お申込み</a></dd-->
 <!--団体受験フォーム-->
-          <!--dd><a href="https://flanet.jp/dantai_form/" target="_blank">団体受験お申込み</a></dd-->
+          <dd><a href="https://flanet.jp/dantai_form/" target="_blank">団体受験お申込み</a></dd>
 
           <dd><a href="/gokaku/">合格者の声 </a>　　
             <ul>
@@ -114,14 +114,12 @@
 -->
           <dt>食アド<sub>®</sub> &  野スぺ<sub>®</sub></dt>
 					<dd><a href="https://shoku-ad.jp/club2022/newstable/">月刊ニューステーブル</a></dd>
-
-          <dt><a href="/privacy/index2.html">Pマーク</a></dt>
+          <dt><a href="/privacy/index2.html">個人情報</a></dt>
           <dd><a href="/privacy/index2.html">個人情報保護方針</a></dd>
 
 <!-- 20250421 トル指示 
           <dd><a href="/privacy/index3.html">個人情報の利用目的の公表、<br />及び開示等に応じる手続き</a></dd>
 -->
-
           <dt class="btm_border"><a href="https://flanet.jp/torihikihou/index.html">特定商取引に基づく表記</a></dt>
 
 <!--最初は class="btm_border" が一つ上の個人情報の利用目的の公表の<dd>の中にあってこれが閉じ線になっている-->
