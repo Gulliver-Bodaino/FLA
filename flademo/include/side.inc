@@ -3,19 +3,19 @@
 <ul id="side_banner">
 
 <!--個人受験-->
-<li id="side_banner25"><a href="https://flanet.jp/kobetsu/" target="_blank"><img src="/img/side_banner25.gif" alt="個人受験申込方法について" class="btnover" /></a></li>
+<!--li id="side_banner25"><a href="https://flanet.jp/kobetsu/" target="_blank"><img src="/img/side_banner25.gif" alt="個人受験申込方法について" class="btnover" /></a></li-->
 <!--li id="side_banner01"><a href="https://flanet.jp/application_form/form_b" target="_blank"><img src="/img/side_banner01.gif" alt="願書請求フォーム" class="btnover" /></a></li-->
-<li id="side_banner01"><a href="/pdf/gansho20250418.pdf" target="_blank"><img src="../img/side_banner01.gif" alt="願書請求フォーム" class="btnover" /></a></li>
+<!--li id="side_banner01"><a href="/pdf/gansho20250418.pdf" target="_blank"><img src="../img/side_banner01.gif" alt="願書請求フォーム" class="btnover" /></a></li-->
 <!--li id="side_banner02"><a href="https://flanet.jp/application_form/form_a" target="_blank"><img src="/img/side_banner02.gif" alt="受験申込フォーム" class="btnover" /></a></li-->
-<li id="side_banner02"><a href="/pdf/kentei20241225c.pdf" target="_blank"><img src="/img/side_banner02.gif" alt="受験申込フォーム" class="btnover" /></a></li>
-<li id="side_banner26"><a href="https://flanet.jp/pdf/annai20241225.pdf" target="_blank"><img src="/img/side_banner26.gif" alt="個人受験案内" class="btnover" /></a></li>
+<!--li id="side_banner02"><a href="/pdf/kentei20241225c.pdf" target="_blank"><img src="/img/side_banner02.gif" alt="受験申込フォーム" class="btnover" /></a></li-->
+<!--li id="side_banner26"><a href="https://shoku-ad.jp/pdf/annai53.pdf" target="_blank"><img src="/img/side_banner26.gif" alt="個人受験案内" class="btnover" /></a></li-->
 <li id="side_banner23"><a href="/juken/" target="_blank"><img src="/img/person_examination_min.png" ait="個人受験" class="btnover" /></a></li>
 <!--個人受験ここまで-->
 
 <!--団体受験-->
 <li id="side_banner24"><a href="/dantai/" target="_blank"><img src="/img/grop_examination_min.png" ait="団体受験" class="btnover" /></a></li>
+<li id="side_banner25"><a href="https://flanet.jp/dantai_form/" target="_blank"><img src="/img/side_banner23.jpg" ait="団体受験申込フォーム" class="btnover" /></a></li>
 <!--li id="side_banner25"><a href="/dantai/pdf/dantai_mousikomi20240927.pdf" target="_blank"><img src="/img/side_banner23.jpg" ait="団体受験申込フォーム" class="btnover" /></a></li-->
-<!--li id="side_banner25"><a href="/dantai/pdf/dantai_mousikomi.pdf" target="_blank"><img src="/img/side_banner23.jpg" ait="団体受験申込フォーム" class="btnover" /></a></li-->
 
 <!--食アド® アカデミー-->
 <li id="side_banner27"><a href="https://shoku-ad.jp"><img src="/img/side_banner24.jpg" ait="食アド® アカデミー" class="btnover" /></a></li>

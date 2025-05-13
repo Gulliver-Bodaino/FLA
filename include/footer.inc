@@ -18,8 +18,10 @@
           <dd><a href="/ado/fukugo.html">プラスα複合資格</a></dd>
           <dt>個人受験</dt>
           <dd><a href="/juken/kentei.html">食生活アドバイザー® 検定とは</a></dd>
+          <!--
           <dd><a href="https://flanet.jp/kobetsu/" target="_blank">個人受験申込方法について</a></dd>
           <dd><a href="https://flanet.jp/pdf/annai20241225.pdf" target="_blank">個人受験案内</a></dd>
+          -->
           <dd><a href="/juken/">試験概要</a></dd>
           <dd><a href="/juken/kouza.html">合格講座概要</a></dd>
               <dd><a href="/juken/kouza3.html">3級カリキュラム</a></dd>
@@ -51,10 +53,11 @@
           <dt>願書請求 </dt>
           <dd><a href="/gansho/">願書請求の流れ</a></dd>
 <!--フォームab-->
-          <dd><a href="/pdf/gansho20250418.pdf" target="_blank">願書請求フォーム</a></dd>
+          <!--dd><a href="/pdf/gansho20250418.pdf" target="_blank">願書請求フォーム</a></dd-->
           <!--dd><a href="https://flanet.jp/application_form/form_b" target="_blank">願書請求フォーム</a></dd-->
           <!--dd><a href="/pdf/kentei20241225c.pdf" target="_blank">受験申込フォーム</a></dd-->
-          <dd><a href="https://flanet.jp/application_form/form_a" target="_blank">受験申込フォーム</a></dd><!--受験申込終了後過去問題集販売終了まで表示-->
+          <!--dd><a href="https://flanet.jp/application_form/form_a" target="_blank">受験申込フォーム</a></dd-->
+          <!--受験申込終了後過去問題集販売終了まで表示-->
           <!--dd><a href="/pdf/kentei20241225c.pdf" target="_blank">受験申込フォーム</a></dd-->
 <!--フォームここまで-->
 
@@ -77,7 +80,7 @@
           <dd><a href="/dantai/pdf/demae53.pdf" target="_blank">出前講座</a></dd>
 <!--PDFリンク時-->
           <!--dd><a href="/dantai/pdf/dantai_mousikomi20240927.pdf" target="_blank">団体受験お申込み</a></dd-->
-          <dd><a href="/dantai/pdf/dantai_mousikomi20250507.pdf" target="_blank">団体受験お申込み</a></dd>
+          <!--dd><a href="/dantai/pdf/dantai_mousikomi20250507.pdf" target="_blank">団体受験お申込み</a></dd-->
 <!--団体受験フォーム-->
           <!--dd><a href="https://flanet.jp/dantai_form/" target="_blank">団体受験お申込み</a></dd-->
 
