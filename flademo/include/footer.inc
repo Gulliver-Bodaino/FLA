@@ -20,7 +20,9 @@
           <dd><a href="/juken/kentei.html">食生活アドバイザー® 検定とは</a></dd>
           
           <!--dd><a href="https://flanet.jp/kobetsu/" target="_blank">個人受験申込方法について</a></dd -->
-          <dd><a href="/pdf/juken_20250626.pdf" target="_blank">個人受験案内</a></dd>
+
+          <!--dd><a href="/pdf/juken_20250626.pdf" target="_blank">個人受験案内</a></dd-->
+          <dd><a href="https://shoku-ad.jp/pdf/jukenguide-new.pdf" target="_blank">個人受験案内</a></dd>
          
           <dd><a href="/juken/">試験概要</a></dd>
           <dd><a href="/juken/kouza.html">合格講座概要</a></dd>
@@ -52,15 +54,14 @@
         <dl>
           <dt>願書請求 </dt>
           <dd><a href="/gansho/">願書請求の流れ</a></dd>
-<!--フォームab-->
-          <dd><a href="/pdf/gansyo_20250626.pdf" target="_blank">願書請求フォーム</a></dd>
-          <!--dd><a href="https://flanet.jp/application_form/form_b" target="_blank">願書請求フォーム</a></dd-->
-          <!--dd><a href="/pdf/kentei20241225c.pdf" target="_blank">受験申込フォーム</a></dd-->
-          <!--dd><a href="https://flanet.jp/application_form/form_a" target="_blank">受験申込フォーム</a></dd-->
-          <!--受験申込終了後過去問題集販売終了まで表示-->
-          <!--dd><a href="/pdf/kentei20241225c.pdf" target="_blank">受験申込フォーム</a></dd-->
-<!--フォームここまで-->
 
+<!--フォームab-->
+          <!--dd><a href="/pdf/gansyo_20250626.pdf" target="_blank">願書請求フォーム</a></dd-->
+          <dd><a href="https://flanet.jp/application_form/form_b" target="_blank">願書請求フォーム</a></dd>
+          <!--dd><a href="/pdf/kentei20241225c.pdf" target="_blank">受験申込フォーム</a></dd-->
+          <dd><a href="https://flanet.jp/application_form/form_a" target="_blank">受験申込フォーム</a></dd>
+
+<!--フォームここまで-->
           <dt><a href="/tusin/">通信講座</a></dt>
           <dd><a href="https://www.hj.sanno.ac.jp/cp/distance-learning/search/?kw=%E9%A3%9F%E7%94%9F%E6%B4%BB%E3%82%A2%E3%83%89%E3%83%90%E3%82%A4%E3%82%B6%E3%83%BC" target="_blank">産業能率大学　総合研究所</a></dd>
           <dd>ユーキャン
@@ -75,13 +76,14 @@
 <!--団体受験-->
           <dt>受験（資格関連情報）</dt>
           <dd><a href="/dantai/">団体受験</a></dd>
-          <dd><a href="/dantai/pdf/dantai_20250626.pdf" target="_blank">団体受験案内</a></dd>
+          <!--dd><a href="/dantai/pdf/dantai_20250626.pdf" target="_blank">団体受験案内</a></dd-->
+          <dd><a href="https://shoku-ad.jp/pdf/dantai-jukenguide-new.pdf" target="_blank">団体受験案内</a></dd>
+          <!--dd><a href="/dantai/pdf/demae53.pdf" target="_blank">出前講座</a></dd-->
+          <dd><a href="https://shoku-ad.jp/pdf/demae-new.pdf" target="_blank">出前講座</a></dd>
 
-          <dd><a href="/dantai/pdf/demae53.pdf" target="_blank">出前講座</a></dd>
-<!--PDFリンク時-->
-          <dd><a href="/dantai/pdf/dantai_moushikomi_20250626.pdf" target="_blank">団体受験お申込み</a></dd>
 <!--団体受験フォーム-->
-          <!--dd><a href="https://flanet.jp/dantai_form/" target="_blank">団体受験お申込み</a></dd-->
+          <!--dd><a href="/dantai/pdf/dantai_moushikomi_20250626.pdf" target="_blank">団体受験お申込み</a></dd-->
+          <dd><a href="https://flanet.jp/dantai_form/" target="_blank">団体受験お申込み</a></dd>
 
           <dd><a href="/gokaku/">合格者の声 </a>　　
             <ul>
