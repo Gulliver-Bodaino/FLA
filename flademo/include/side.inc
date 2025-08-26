@@ -35,7 +35,7 @@
 <li id="side_banner18" class="m_b10"><a href="/gokaku/"><img src="/img/side_banner11.jpg" alt="合格者の声 　S.Hさん／S.Sさん" class="btnover" /></a></li>
 <li id="side_banner09" class="m_b25"><a href="/gokaku/index2.html"><img src="/img/side_banner12.jpg" alt="合格者の声 　H.Aさん／M.Aさん" class="btnover" /></a></li>
 <li class="m_b10" id="syoseki_banner">
-<p><a href="/kaiin/"><img src="/img/side_banner10.gif" alt="食アド会員制度" class="btnover" /></a></p>
+<p><a target="_blanck" href="https://shoku-ad.jp/member/"><img src="/img/side_banner10.gif" alt="食アド会員制度" class="btnover" /></a></p>
 </li>
 <li class="m_b10" id="koramu_banner">
 <!--20230105UP時より非表示
