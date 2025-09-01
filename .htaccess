@@ -1,13 +1,9 @@
-#<IfModule mod_rewrite.c>
-#RewriteEngine on
-#RewriteCond %{HTTP_HOST} ^www.flanet\.jp
-#RewriteRule ^(.*) http://flanet.jp/$1 [R=301,L]
-#RewriteCond %{HTTP_HOST} ^ssl\.flanet\.jp
-#RewriteRule ^(.*) http://flanet.jp/$1 [R=301,L]
-#RewriteCond %{ENV:HTTPS} !^on$
-#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-#</IfModule>
-
-# phpサーバーを起動して 確認する方法
-# php -S localhost:8080
-# http://localhost:8080/
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.flanet\.jp
+RewriteRule ^(.*) http://flanet.jp/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^ssl\.flanet\.jp
+RewriteRule ^(.*) http://flanet.jp/$1 [R=301,L]
+RewriteCond %{ENV:HTTPS} !^on$
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>
