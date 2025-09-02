@@ -96,8 +96,9 @@
               <li><a href="/gokaku/index2.html">H.Nさん</a></li>
             </ul>
           </dd>
-          <dd class="btm_border"><a href="/kaiin/">食アド<sub>®</sub> 会員制度</a></dd>
+          <dd class="btm_border"><a href="https://shoku-ad.jp/member/" target="_blanck">食アド<sub>®</sub> 会員制度</a></dd>
 <!--
+          <dd class="btm_border"><a href="/kaiin/">食アド<sub>®</sub> 会員制度</a></dd>
           <dt>日本の資格検定</dt>
           <dd class="btm_border"><a href="https://jpsk.jp/article/award2019.html" target="_blank">「日本の資格・検定」AWARDS 2019</a></dd>
 -->
