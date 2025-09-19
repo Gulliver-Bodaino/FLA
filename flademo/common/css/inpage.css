@@ -130,7 +130,15 @@ sub{top:.5ex;}
 .list01 li .list_txt{font-size:14px;}
 .list02{list-style:none;margin:0 0 40px 0;padding:0;border-bottom:1px solid #e9e9e9;counter-reset:item;}
 .list02 li{padding:15px;border-top:1px solid #e9e9e9;}
-.list02 li:before{font-weight:bold;color:#ff6b00;padding:0 5px 0 0;content:content:counters(item, ".") ". ";counter-increment:item;}
+
+.list02 li:before{
+    font-weight:bold;
+    color:#ff6b00;
+    padding:0 5px 0 0;
+    content:counters(item, ".") ". ";
+    counter-increment:item;
+}
+
 .list_flex_box.list01{display: flex; justify-content:center; flex-wrap: wrap;}
 .list_flex_box.list01 li:nth-last-child(1),
 .list_flex_box.list01 li:nth-last-child(2),
@@ -268,12 +276,6 @@ sub{top:.5ex;}
 #juken_list li{margin-right:7px;float:left;}
 #juken_list li:last-child{margin-right:0;float:left;}
 #juken_list li a{display:block;}
-#juken_list .top_juken_banner01 a{;}
-#juken_list .top_juken_banner02 a{;}
-#juken_list .top_juken_banner03 a{;}
-#juken_list .top_juken_banner04 a{;}
-#juken_list .top_juken_banner05 a{;}
-#juken_list .no_li{}
 #juken_banner{padding-bottom:10px;}
 #juken_banner li{margin-right:10px;float:left;}
 #juken_banner li:nth-child(even){margin-right:0;float:left;}
@@ -432,7 +434,6 @@ text-align:center;margin:0 auto;}
 #recipe #detail_contents .rml_list_box{display:flex;flex-wrap:wrap;margin-bottom:30px;}
 #recipe #detail_contents .rml_list_box li{line-height:120%;text-align:center;padding-bottom:50px;width:32%;cursor:pointer;float:left;}
 #recipe #detail_contents .rml_list_box li:nth-child(3n+2){margin:0 2%;}
-#recipe #detail_contents .rml_list_box li.no_li{}
 #recipe #detail_contents .rml_list_box li dl dt{margin-bottom:10px;height:170px;overflow:hidden;}
 #recipe #detail_contents .rml_list_box li dl dt img{width:100%;height:auto;}
 #recipe #detail_contents .rml_list_box li .rml_title{min-height:54px;}
@@ -542,7 +543,7 @@ text-align:center;margin:0 auto;}
 /* ado-----------------------------------------------------------------------------*/
 #ado #ado_page_title{color:#fff;margin-bottom:0;padding:40px 200px 40px 40px;background:url(../../ado/img/index_main_tit.gif) no-repeat 95% 50%, url(../../img/bg_stripe.gif) 0 0;}
 #ado #ado_page_title h2{font-size:28px;font-weight:bold;line-height:1.2;text-align:left;}
-#ado #ado_page_title p{font-wight:normal;font-size:14px;margin-top:10px;width:100%;}
+#ado #ado_page_title p{font-weight:normal;font-size:14px;margin-top:10px;width:100%;}
 #ado .ado_main{padding:30px 23px 50px 23px;}
 #ado .ado_box{font-size:14px;margin:0 55px 50px 55px;padding:0 25px 20px 25px;border:#f2b112 solid 2px;border-radius:5px;}
 #ado .ado_box_img{text-align:center;margin:-20px 0 20px 165px;background:#f2b112;padding:6px 30px;display:inline-block;border-radius:25px;color:#fff;}
@@ -554,7 +555,7 @@ text-align:center;margin:0 auto;}
 /* ado/field */
 #ado_field #field_page_title{color:#fff;margin-bottom:40px;padding:40px 200px 40px 40px;background:url(../../ado/img/field_main_tit.gif) no-repeat 95% 50%, url(../../img/bg_stripe.gif) 0 0}
 #ado_field #field_page_title h2{font-size:28px;font-weight:bold;line-height:1.2;text-align:left;}
-#ado_field #field_page_title p{font-wight:normal;font-size:14px;margin-top:10px;width:100%;}
+#ado_field #field_page_title p{font-weight:normal;font-size:14px;margin-top:10px;width:100%;}
 #ado_field #field_page_title .title_sub ,#ado_fukugo #fukugo_page_title .title_sub{font-size:16px;margin-bottom:5px;display:block;}
 #ado_field #field_page_title .title_no ,#ado_fukugo #fukugo_page_title .title_no{border-radius:25px;font-size:18px;color:#f2b112;margin:0 5px 0 0;padding:4px 15px 5px;display:inline-block;background:#fff;}
 #ado_field #field_main{width:100%;height:100%;}
@@ -564,15 +565,10 @@ text-align:center;margin:0 auto;}
 #ado_field #field_main li:nth-child(odd) .field_txt{margin-right:30px;background:#ff6b00;}
 #ado_field #field_main li:nth-child(even) .field_txt{margin-left:30px;background:#f2b112;}
 #ado_field #field_main li .field_st{font-size:22px;line-height:1.5;text-align:center;margin-bottom:10px;}
-#ado_field #field_main .field_img_01{;}
-#ado_field #field_main .field_img_02{;}
-#ado_field #field_main .field_img_03{;}
-#ado_field #field_main .field_img_04{;}
-#ado_field #field_main .field_img_05{;}
 /* ado / fukugo */
 #ado_fukugo #fukugo_page_title{color:#fff;margin-bottom:40px;padding:40px 200px 40px 40px;background:url(../../ado/img/fukugo_main_tit.gif) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0}
 #ado_fukugo #fukugo_page_title h2{font-size:28px;font-weight:bold;line-height:1.2;text-align:left;}
-#ado_fukugo #fukugo_page_title p{font-wight:normal;font-size:14px;margin-top:10px;width:100%;}
+#ado_fukugo #fukugo_page_title p{font-weight:normal;font-size:14px;margin-top:10px;width:100%;}
 #ado_fukugo .fukugo_main{padding:0 30px 55px 30px;}
 #ado_fukugo dd.fukugo_fl{width:140px;float:left;}
 #ado_fukugo dd.fukugo_fr{font-size:14px;padding-left:10px;width:430px;float:right;}
@@ -596,7 +592,6 @@ text-align:center;margin:0 auto;}
 #shoseki .dl01{font-size:14px;padding:0 10px 70px 10px;}
 #shoseki .shoseki_txt_box{width:280px;float:left;}
 #shoseki .shoseki_one_book{width:420px;float:left;}
-#shoseki dt{}
 #shoseki dt sup{font-size:24px;bottom:0;margin-right:5px;}
 #shoseki dt span.icon01{font-size:12px;display:inline-block;background:#D03C1B;color:#fff;padding:1px 10px;border-radius:20px;margin:-3px 10px 0 0;}
 #shoseki dt span.icon02{font-size:12px;display:inline-block;background:#f2b112;color:#fff;padding:1px 10px;border-radius:20px;margin:-3px 10px 0 0;}
@@ -665,7 +660,6 @@ text-align:center;margin:0 auto;}
 #dantai #one_point .color_box .book_title{vertical-align:middle;}
 #dantai #one_point .color_box .issue{font-size:14px;font-weight:normal;color:#000;display:block;}
 #dantai #one_point .book_img{padding:0 15px 50px 25px;}
-#dantai #one_point h4{;}
 #dantai #one_point p{font-size:14px;padding-bottom:35px;}
 #dantai #one_point .color_box2{font-size:14px;margin:0 0 30px 0;padding:35px 45px 35px 45px;background:#f9f8ee;}
 #dantai #one_point .color_box2 h4{font-size:18px;}
@@ -694,13 +688,12 @@ text-align:center;margin:0 auto;}
 #dantai .demae_btn{font-weight: bold;}
 /* gokaku-----------------------------------------------------------------------------*/
 #gokaku .page_title{text-align:center;width:643px;height:143px;background-image:url(../../gokaku/img/interview_tit.gif);position:relative;}
-#gokaku .page_title .title_txt{transform:translateY(-50%) translateX(-50%);-webkit- transform:translateY(-50%) translateX(-50%);font-size:30px;color:#555;margin:0;width:100%;top:50%;left:50%;position:absolute;}
+#gokaku .page_title .title_txt{transform:translateY(-50%) translateX(-50%);-webkit-transform:translateY(-50%) translateX(-50%);font-size:30px;color:#555;margin:0;width:100%;top:50%;left:50%;position:absolute;}
 #gokaku .page_title .txt_s{font-size:16px;font-weight:normal;vertical-align:middle;padding-right:20px;}
 #gokaku #gokaku_img{font-size:16px;text-align:center;margin-left:30px;float:right;}
 #gokaku .pc{display:none;}
 #gokaku .sp{display:block;}
 #gokaku h3{text-align:center;}
-#gokaku p{;}
 #gokaku rb{font-size:24px;}
 #gokaku rt{font-size:16px;}
 #gokaku .ruby{display:inline;}
@@ -712,7 +705,7 @@ text-align:center;margin:0 auto;}
 /* kaiin-----------------------------------------------------------------------------*/
 #kaiin #kaiin_page_title{color:#fff;margin-bottom:40px;padding:70px 180px 70px 40px;background:url(../../kaiin/img/index_main_tit.gif) no-repeat 95% 50%, url(../../img/bg_stripe.gif) 0 0;}
 #kaiin #kaiin_page_title h2{font-size:28px;font-weight:bold;line-height:1.2;text-align:left;}
-#kaiin #kaiin_page_title p{font-wight:normal;font-size:14px;margin-top:10px;width:100%;}
+#kaiin #kaiin_page_title p{font-weight:normal;font-size:14px;margin-top:10px;width:100%;}
 #kaiin .box_in{font-size:14px;padding:0;}
 #kaiin .color_box{font-size:14px;margin-bottom:45px;padding:30px 30px 30px 30px;background:#f9f8ee;}
 #kaiin .my_list{overflow:hidden;}
@@ -724,7 +717,7 @@ text-align:center;margin:0 auto;}
 #kaiin .tokuten p{margin-bottom:30px;}
 /* tusin-----------------------------------------------------------------------------*/
 #tusin #page_title h2{font-size:28px;font-weight:bold;line-height:1.2;text-align:left;}
-#tusin #page_title p{font-wight:normal;font-size:14px;margin-top:10px;width:100%;}
+#tusin #page_title p{font-weight:normal;font-size:14px;margin-top:10px;width:100%;}
 #tusin h4{font-size:20px;color:#ff6b00;padding-bottom:25px;}
 #tusin em{font-style:normal;color:#f37d50;}
 #tusin strong{margin-bottom:5px;}
@@ -763,7 +756,6 @@ text-align:center;margin:0 auto;}
 #tusin .vege_banner{text-align:center;display:block;}
 /* gansho-----------------------------------------------------------------------------*/
 #gansho #gansho_box{margin-bottom:70px;}
-#gansho #gansho_box li{}
 #gansho #gansho_box li h3{color:#e95516;font-size:24px;font-weight:normal;margin-bottom:20px;line-height:normal;}
 #gansho #gansho_box li h3 span{padding-right:20px;}
 #gansho #gansho_box li .gansho_l_box{padding:0 0 40px;border-bottom:1px solid #fff000;box-sizing:border-box;width:100%;margin-bottom:30px;}
@@ -778,7 +770,6 @@ text-align:center;margin:0 auto;}
 #gansho #gansho_attention .g_a_tit .fl{border-radius:3px;color:#FFF;line-height:100%;padding:10px 15px;font-weight:bold;background:#ff6b00;}
 #gansho #gansho_attention .g_a_tit .fr{font-weight:bold;color:#ff6b00;}
 /* event-----------------------------------------------------------------------------*/
-#event #event_page_title{;}
 #event #event_main{padding:0 18px 18px 18px;}
 #event #event_main .box_in h3{font-size:16px;font-weight:normal;color:#5c9aea;text-align:center;padding:55px 0 660px 0;}
 #event #event_main2{padding:30px 0 0;}

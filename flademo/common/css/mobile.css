@@ -232,7 +232,6 @@ body{}
 #booter_link .btm_border{padding-bottom:0;border-bottom:0!important;}
 #booter_link dl dd ul li{margin-left:20px;padding:3px 3px 3px 15px;background:none;}
 #booter_link dl dd a{padding:2px 0 2px 15px;display:block;background:url(../../img/footer_yazirusi02.gif) no-repeat 0 5px;}
-#booter_link dl dd ul{;}
 #side_navi{display:none;}
 /*side_navi booter_link end */
 #pagetop{right:5px;bottom:10px;}
@@ -270,7 +269,6 @@ display:block;background-color:#ff8332;}
 #contents #side #side_banner li#side_banner05{background-color:#ff9232;}
 #contents #side #side_banner li#side_banner06{background-color:#ff9232;}
 #contents #side #side_banner li#side_banner07{background-color:#ff9232;}
-#contents #side #side_banner li#side_banner08{;}
 #contents #side #side_banner li#side_banner09{background-color:#0DD2E3;}
 #contents #side #side_banner li#side_banner10{background-color:#0DD2E3;}
 #contents #side #side_banner li#side_banner15{background-color:#87CAAC;}
@@ -321,10 +319,6 @@ display:block;background-color:#ff8332;}
 #juken_list li{margin:0 0.5% 10px 0.5%;border:none;width:49%;float:left;}
 #juken_list li a{border:0;display:block;}
 #juken_list li a img{width:100%;height:auto;}
-#juken_list .top_juken_banner01 a{;}
-#juken_list .top_juken_banner02 a{;}
-#juken_list .top_juken_banner03 a{;}
-#juken_list .top_juken_banner04 a{;}
 #juken_list .top_juken_banner05 a{margin-right:0;}
 #juken_banner{text-align:center;padding-bottom:10px;}
 #juken_banner li{margin-bottom:5px;margin-right:0;padding:0 5px;float:none;}
