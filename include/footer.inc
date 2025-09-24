@@ -82,11 +82,8 @@
           <dd><a href="https://shoku-ad.jp/pdf/demae-new.pdf" target="_blank">出前講座</a></dd>
 
 <!--団体受験フォーム-->
-          <dd><a href="https://flanet.jp/dantai_form/" target="_blank">団体受験お申込み</a></dd>
+          <dd><a href="/dantai/pdf/20250922_moushikomi.pdf" target="_blank">団体受験お申込み</a></dd>
         <!-- PDF
-          <dd><a href="/dantai/pdf/20250729_dantai.pdf" target="_blank">団体受験お申込み</a></dd>
-        -->
-        <!-- フォーム時
           <dd><a href="https://flanet.jp/dantai_form/" target="_blank">団体受験お申込み</a></dd>
         -->
 
