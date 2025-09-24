@@ -30,6 +30,8 @@ a img { border: 0; }
 
 /*	margin padding
 -----------------------------------------------------------------------------*/
+.mt16p { margin-top: 16px; }
+
 .m_b05 { margin-bottom: 5px; }
 .m_b10 { margin-bottom: 10px; }
 .m_b15 { margin-bottom: 15px; }
