@@ -60,7 +60,7 @@
     </ul>
     <ul id="header_link">
       <li class="header_link01"><a href="/kyokai/">協会情報</a></li>
-      <li class="header_link02"><a href="/privacy/">Pマーク</a></li>
+      <li class="header_link02"><a href="/privacy/">個人情報</a></li>
       <li class="header_link03"><a href="/info/">お問い合せ</a></li>
       <li class="header_link04"><a href="/sitemap/">サイトマップ</a></li>
     </ul>
