@@ -15,13 +15,13 @@
       <li class="navi02"><a class="color_change" href="/juken/">個人受験案内</a>
       <ul class="navi_dropdown">
 				<li><a href="/juken/kentei.html">食生活アドバイザー<sup>&#174;</sup>検定とは</a></li>
-				<li><a href="/juken/">試験概要</a></li>
-				<li><a href="/juken/kouza.html">合格講座概要</a></li>
-				<li><a href="/shoseki/past.html">過去問題集</a></li>
-				<li><a href="/juken/kouza3.html">3級カリキュラム</a></li>
-				<li><a href="/juken/kouza2.html">2級カリキュラム</a></li>
+				<li><a href="/juken/">3級.2級試験概要</a></li>
+				<li><a href="/juken/#a1">1級 試験概要</a></li>
+				<li><a href="/juken/mohan.html">模範解答</a></li>
+				<li><a href="/juken/curriculum.html">各級カリキュラム</a></li>
 				<li><a href="/juken/mogi3.html">チャレンジ問題3級</a></li>
 				<li><a href="/juken/mogi2.html">チャレンジ問題2級</a></li>
+				<li><a href="/juken/mogi1.html">チャレンジ問題1級</a></li>
 				<li><a href="/gansho/">願書請求</a></li>
       </ul>
 	  </li>
