@@ -119,3 +119,88 @@
 	#main_kobetsu .kobetsu_area p.txt_disc { padding: 0 0 0 1em; position: relative; line-height: 1.8;}
 	#main_kobetsu .kobetsu_area p.txt_disc::before { display: block; content: "・"; position: absolute; top:0; left: 0; font-weight: bold;}
 }
+.juken_moushikomi_box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin:16px auto;
+	color: #fff;
+}
+.juken_moushikomi_box p:nth-child(1){
+	width: 100%;
+  height: 80px;
+  font-size: 1.6rem;
+	line-height: 78px;
+	text-align: center;
+	font-weight: bold;
+	background: #ff3ca8;
+
+}
+.juken_moushikomi_box_inner{
+	display: flex;
+  justify-content: space-evenly;
+	width:100%;
+	margin:0 auto;
+	padding:0 0 8px;
+}
+.juken_moushikomi_box_inner:nth-child(3){
+	padding: 8px 0;
+}
+.juken_moushikomi_box_inner div{
+	width:48%;
+	padding:16px;
+	text-align: center;
+	font-weight: bold;
+}
+.juken_moushikomi_box_inner div{
+	width:48%;
+	padding:16px;
+	text-align: center;
+	font-weight: bold;
+}
+.juken_moushikomi_box_inner div a{
+	display: block;
+	width:80%;
+	margin:0 auto;
+	padding:16px;
+	background: #fff;
+	border-radius: 32px;
+}
+.juken_moushikomi_box_inner a h3{
+	padding:4px 0 8px;
+	font-size: 1.6rem;
+}
+.juken_moushikomi_box_inner a p{font-size: 1.2rem;}
+
+
+@media (max-width: 767px) {
+	.juken_moushikomi_box{width:98%;}
+	.juken_moushikomi_box_inner div a{width:100%;}
+}
+@media (max-width: 640px) {
+	.juken_moushikomi_box_inner a h3{
+		font-size: 1.3rem;
+	}
+	.juken_moushikomi_box_inner a p{
+		font-size: 1rem;
+	}
+}
+@media (max-width: 512px) {
+	.juken_moushikomi_box_inner div a{
+		padding:0;
+		color: #fff;
+	}
+	.juken_moushikomi_box_inner:nth-of-type(1) div a{
+		background:#FF9AD1;
+	}
+	.juken_moushikomi_box_inner:nth-of-type(2) div a{
+		background:#DE9FFE;
+	}
+	.juken_moushikomi_box_inner a h3{
+		font-size: 1.2rem;
+	}
+	.juken_moushikomi_box_inner a p{
+		font-size: 0.8rem;
+		line-height: 1.1rem;
+	}
+}

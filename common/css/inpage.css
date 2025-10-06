@@ -110,7 +110,16 @@ sub{top:.5ex;}
 /* st */
 .copy{font-size:24px;font-weight:bold;color:#ff6b00;line-height:1.5;margin-bottom:20px;margin-top:40px;}
 .st{font-size:22px;font-weight:bold;color:#ff6b00;text-align:center;margin-bottom:30px;}
-.sst{font-size:18px;font-weight:bold;color:#ff6b00;margin-bottom:30px;padding:0 0 0 10px;border-left:5px solid #ff6b00;}
+
+h2.sst{
+	font-size:18px;
+	font-weight:bold;
+	color:#ff6b00;
+	margin-bottom:30px;
+	padding:0 0 0 10px;
+	border-left:5px solid #ff6b00;
+}
+
 /* box */
 .main{padding:0 23px 50px 23px;}
 .txt14{font-size:14px;}
@@ -243,10 +252,6 @@ sub{top:.5ex;}
 .syoku_ado {background-color: #86D40D; color: #fff; text-align: center; padding: 20px 20px; margin-top: 30px;}
 /* 211203 add end*/
 
-
-
-
-
 #top_banner{padding:10px 0;}
 #top_kentei{width:100%;display:flex;flex-flow:row wrap;align-items:center;justify-content:center;color:#fff;border:5px solid #ff6b00;min-height:328px;background:#ff6b00;margin-bottom:10px;/*フォームコメントアウト時に入れたので解除したらこの指定を取る*/
 }
@@ -346,7 +351,7 @@ sub{top:.5ex;}
 #juken #kouza_main .half_w .main_table td{padding:10px 20px;}
 #juken #kouza_main .maru_list{font-size:14px;}
 #juken #kouza3_page_title #kouza3_page_txt{margin-top:-30px;}
-#juken #kouza3_main{font-size:16px;margin-bottom:40px;border-bottom:#FF7E4C 1px solid;}
+#juken #kouza3_main{font-size:16px;margin-bottom:40px;}
 #juken #kouza3_main .main_table{font-size:14px;margin-bottom:40px;}
 #juken #kouza3_main .main_table th{font-size:18px;text-align:left;padding:20px 15px 20px 75px;width:40%;background-position:15px 50%;background-repeat:no-repeat;}
 #juken #kouza3_main .main_table th.title{font-size:14px;text-align:center;padding:7px 0;}
@@ -853,3 +858,16 @@ text-align:center;margin:0 auto;}
 #academy #detail_contents #page_title h2 p{font-size: 20px;}
 #academy #detail_contents h2 p{margin-bottom: 15px;}
 #academy #detail_contents .new{font-size: 18px; border: 1px solid;padding: 5px;margin-right: 12px;}
+
+
+.txt_box .qualification{
+	margin: 0 0 4px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	
+}
+.txt_box .qualification span{
+	padding:2px 12px;
+	border-radius: 16px 0 16px 0;
+}

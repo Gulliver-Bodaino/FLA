@@ -25,20 +25,20 @@
           <dd><a href="https://shoku-ad.jp/pdf/jukenguide-new.pdf" target="_blank">個人受験案内</a></dd>
          
           <dd><a href="/juken/">試験概要</a></dd>
-          <dd><a href="/juken/kouza.html">合格講座概要</a></dd>
-              <dd><a href="/juken/kouza3.html">3級カリキュラム</a></dd>
-              <dd><a href="/juken/kouza2.html">2級カリキュラム</a></dd>
+          <dd><a href="/juken/curriculum.html">各級カリキュラム</a></dd>
           <dd><a href="/juken/mogi3.html">チャレンジ問題</a>
             <ul>
-              <li><a href="/juken/mogi3.html">チャレンジ問題3級</a></li>
-              <li><a href="/juken/mogi2.html">チャレンジ問題2級</a></li>
+              <li><a href="/juken/mogi3.html">3級 チャレンジ問題</a></li>
+              <li><a href="/juken/mogi2.html">2級 チャレンジ問題</a></li>
+              <li><a href="/juken/mogi1.html">1級 チャレンジ問題</a></li>
             </ul>
           </dd>
           <dd><a href="/juken/mohan.html">検定試験模範解答</a></dd>
           <dd><a href="/pass/">合格講座</a>
             <ul>
-              <li><a href="/pass/">速習コース</a></li>
-              <li><a href="/pass/education.html">通学コース</a></li>
+              <li><a href="/pass/">3級 速習コース</a></li>
+              <li><a href="/pass/2course.html">2級 通学・速習コース</a></li>
+              <li><a href="/pass/1course.html">1級 通学コース</a></li>
             </ul>
          </dd>
           <dd><a href="/shoseki/">書籍紹介</a>

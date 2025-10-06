@@ -40,7 +40,7 @@
 -->
       </ul>
       </li> 
-      <li class="navi05"><a href="/shoseki/" class="color_change">書籍紹介/過去問題集</a>
+      <li class="navi05"><a href="/shoseki/" class="color_change">書籍紹介/問題集</a>
       <ul class="navi_dropdown">
       
       

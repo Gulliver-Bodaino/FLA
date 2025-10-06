@@ -31,6 +31,7 @@ a img { border: 0; }
 /*	margin padding
 -----------------------------------------------------------------------------*/
 .mt16p { margin-top: 16px; }
+.mtp64 { margin-top: 64px; }
 
 .m_b05 { margin-bottom: 5px; }
 .m_b10 { margin-bottom: 10px; }
@@ -61,12 +62,18 @@ a img { border: 0; }
 
 /*	color
 -----------------------------------------------------------------------------*/
+.c_fff { color: #fff; }
 .red { color: #cb1f28; }
 .yellow { color: #e8a604; }
 .orange { color: #ff6b00; }
 .orange2 { color: #ff9232; }
 .black{ color: #000000;}
-
+.c_ff3ca8,.bg_FF9AD1 a{color:#ff3ca8;}
+.c_9A3CCA,.bg_DE9FFE a{color:#9A3CCA;}
+.bg_ff3ca8{background: #ff3ca8;}
+.bg_FF9AD1{background: #FF9AD1;}
+.bg_9A3CCA{background: #9A3CCA;}
+.bg_DE9FFE{background: #DE9FFE;}
 
 /*	flex
 -----------------------------------------------------------------------------*/
@@ -86,8 +93,6 @@ a img { border: 0; }
 .js_hvr-btn_wrp >*,
 .js_link-box_wrp >*,
 .link_btn{cursor:pointer;}
-.js_tel-btn{}
-
 .js_hvr-btn:hover,
 .js_hvr-btn a:hover,
 .js_hvr-btn_wrp a:hover,

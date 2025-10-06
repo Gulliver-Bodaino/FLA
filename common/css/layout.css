@@ -27,14 +27,8 @@ input{font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体"
 #header #sp_navi{display:none;}
 #header #navi li{font-size:12px;text-align:center;border-left:1px solid #000; width: 14.28%;}
 #header #navi li:last-child{border-right:1px solid #000;}
-/*#header .navi01{width:158px;height:25px;z-index:2;top:109px;left:0px;position:absolute;}
-#header .navi02{width:158px;height:25px;z-index:2;top:109px;left:158px;position:absolute;}
-#header .navi03{width:158px;height:25px;z-index:2;top:109px;left:316px;position:absolute;}
-#header .navi04{width:158px;height:25px;z-index:2;top:109px;left:474px;position:absolute;}
-#header .navi05{width:158px;height:25px;z-index:2;top:109px;left:632px;position:absolute;}
-#header .navi06{width:158px;height:25px;z-index:2;top:109px;left:800px;position:absolute;}*/
 #header #header_link li{font-size:12px;}
-#navi{*zoom:1;list-style-type:none;padding:0; display: flex; justify-content: space-between;}
+#navi{zoom:1;list-style-type:none;padding:0; display: flex; justify-content: space-between;}
 #navi:before, #navi:after{display:table;content:"";}
 #navi:after{clear:both;}
 #navi li{position:relative;}
