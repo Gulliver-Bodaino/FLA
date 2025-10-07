@@ -5,7 +5,7 @@
 <!--個人受験-->
 <li id="side_banner25"><a href="https://flanet.jp/kobetsu/" target="_blank"><img src="/img/side_banner25.gif" alt="個人受験申込方法について" class="btnover" /></a></li>
 
-<li id="side_banner01"><a href="/pdf/20250926_moushikomi.pdf" target="_blank"><img src="../img/side_banner01.gif" alt="願書請求フォーム" class="btnover" /></a></li>
+<li id="side_banner01"><a href="/pdf/20251006_moushikomi.pdf" target="_blank"><img src="../img/side_banner01.gif" alt="願書請求フォーム" class="btnover" /></a></li>
 <!--li id="side_banner01"><a href="https://flanet.jp/application_form/form_b" target="_blank"><img src="/img/side_banner01.gif" alt="願書請求フォーム" class="btnover" /></a></li-->
 
 <li id="side_banner02"><a href="https://flanet.jp/application_form/form_a" target="_blank"><img src="/img/side_banner02.gif" alt="受験申込フォーム" class="btnover" /></a></li>
