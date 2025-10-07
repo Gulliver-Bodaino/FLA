@@ -56,7 +56,7 @@
           <dd><a href="/gansho/">願書請求の流れ</a></dd>
 
 <!--フォームab-->
-          <dd><a href="/pdf/20250926_moushikomi.pdf" target="_blank">願書請求フォーム</a></dd>
+          <dd><a href="/pdf/20251006_moushikomi.pdf" target="_blank">願書請求フォーム</a></dd>
           <!--dd><a href="https://flanet.jp/application_form/form_b" target="_blank">願書請求フォーム</a></dd-->
 
           <dd><a href="https://flanet.jp/application_form/form_a" target="_blank">受験申込フォーム</a></dd>
