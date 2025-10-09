@@ -115,7 +115,7 @@ h2.sst{
 	font-size:18px;
 	font-weight:bold;
 	color:#ff6b00;
-	margin-bottom:30px;
+	margin:48px 0 24px;
 	padding:0 0 0 10px;
 	border-left:5px solid #ff6b00;
 }
@@ -860,14 +860,43 @@ text-align:center;margin:0 auto;}
 #academy #detail_contents .new{font-size: 18px; border: 1px solid;padding: 5px;margin-right: 12px;}
 
 
-.txt_box .qualification{
-	margin: 0 0 4px;
+
+
+
+.examination_fee p,
+.Start_exam p{
+	margin:8px 16px 32px;
+}
+.Start_exam h3{
+	margin:48px 16px 8px;
+}
+
+
+.grade_icon span{
+	margin: 8px 0 4px;
+	padding:2px 12px;
 	font-size: 16px;
 	font-weight: bold;
 	color: #fff;
-	
-}
-.txt_box .qualification span{
-	padding:2px 12px;
 	border-radius: 16px 0 16px 0;
+}
+.examination_map_attention{
+	padding: 16px 24px;
+	background: #f9f8ee;
+	border-radius: 16px;
+}
+.examination_map_attention .none{
+  border-radius: 8px;
+	color: #FFF;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  width: 85px;
+  background-color: #ff6b00;
+
+}
+
+
+.w40_h_auto{
+	width:40px;
+	height:auto
 }

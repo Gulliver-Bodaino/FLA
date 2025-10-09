@@ -119,6 +119,65 @@
 	#main_kobetsu .kobetsu_area p.txt_disc { padding: 0 0 0 1em; position: relative; line-height: 1.8;}
 	#main_kobetsu .kobetsu_area p.txt_disc::before { display: block; content: "・"; position: absolute; top:0; left: 0; font-weight: bold;}
 }
+
+
+
+.top_event_imgbox{
+	display: flex;
+	justify-content: space-between;
+}
+.top_event_imgbox p{
+	max-width: 49%;
+	margin:32px 0 64px;
+}
+.top_event_imgbox p img{
+	max-width: 100%;
+}
+
+.juken_moushikomi_box_1{
+	background: #FDE6EE;
+  padding: 32px;
+  border-radius: 16px;
+}
+.juken_moushikomi_box_1 h2{
+  margin-bottom: 16px;
+  font-size: 24px;
+	text-align: center;
+	color: #C63A7F;
+}
+.juken_moushikomi_box_1_inner{
+	display:flex;
+	margin:auto;
+}
+.juken_moushikomi_box_1_inner a{
+	display:block;
+	width:320px;
+	margin:16px auto;
+	background: white;
+  border-radius: 24px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  padding: 24px;
+  text-align: center;
+	font-weight: bold;
+}
+.juken_moushikomi_box_1_inner:nth-of-type(2) a{
+	background: #E7C2EB;
+}
+.juken_moushikomi_box_1_inner a h3{
+	margin-bottom:8px;
+	font-size: 24px;
+	color: #C63A7F;
+}
+.juken_moushikomi_box_1_inner a p{
+	font-size: 18px;
+	color: #8D0A4A;
+}
+
+
+
+
+
+
 .juken_moushikomi_box{
 	display: flex;
 	flex-wrap: wrap;
@@ -174,10 +233,20 @@
 
 
 @media (max-width: 767px) {
+	.juken_moushikomi_box_1{
+		border-radius:0;
+	}
+	.juken_moushikomi_box_1_inner a{width:48%;}
 	.juken_moushikomi_box{width:98%;}
 	.juken_moushikomi_box_inner div a{width:100%;}
 }
 @media (max-width: 640px) {
+	.juken_moushikomi_box_1_inner a h3{
+		font-size: 20px;
+	}
+	.juken_moushikomi_box_1_inner a p{
+		font-size: 12px;
+	}
 	.juken_moushikomi_box_inner a h3{
 		font-size: 1.3rem;
 	}
@@ -186,9 +255,26 @@
 	}
 }
 @media (max-width: 512px) {
+	.juken_moushikomi_box_1{
+    padding: 12px;
+		border-radius:0;
+	}
+	.juken_moushikomi_box_1_inner a{
+		padding: 16px;
+	}
+	.juken_moushikomi_box_1_inner a p{
+		font-size: 11px;
+	}
+	.top_event_imgbox p{
+		margin: 8px 0 32px;
+	}
+
 	.juken_moushikomi_box_inner div a{
 		padding:0;
 		color: #fff;
+	}
+	.juken_moushikomi_box_1_inner a h3{
+		font-size: 18px;
 	}
 	.juken_moushikomi_box_inner:nth-of-type(1) div a{
 		background:#FF9AD1;
