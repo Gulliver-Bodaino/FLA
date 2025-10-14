@@ -122,20 +122,147 @@
 
 
 
-.top_event_imgbox{
+
+.top_event_imgbox_1 p{
+	width:464px;
+	height:320px;
+	font-size: 32px;
+	line-height:1.6em;
+	font-weight: bold;
+	text-align: center;
+	
+}
+/* かぎ括弧風ボックス */
+.top_event_imgbox_1 p{
+    margin:2em 0;
+    position: relative;
+}
+.top_event_imgbox_1 p a{
+	position: relative;
 	display: flex;
-	justify-content: space-between;
+  justify-content: center;
+  align-items: center;	
+	width:85%;
+	height:80%;
 }
-.top_event_imgbox p{
-	max-width: 49%;
-	margin:32px 0 64px;
+.top_event_imgbox_1 p:nth-of-type(1) a{
+  border: 2px solid #9B8400;
+		color:#4C4000;
+
 }
-.top_event_imgbox p img{
-	max-width: 100%;
+.top_event_imgbox_1 p:nth-of-type(2) a{
+  border: 2px solid #9301E3;
+	color:#540181;
 }
+.top_event_imgbox_1 p a::after{
+    position: absolute;
+    width:16px;
+    height: 16px;
+}
+.top_event_imgbox_1 p::before,
+.top_event_imgbox_1 p::after {
+    content: '';
+    position: absolute;
+    width:12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.top_event_imgbox_1 p::before {
+  bottom:6%;
+  right:5%;
+}
+.top_event_imgbox_1 p::after {
+  top:6%;
+  left:5%;
+
+}
+.top_event_imgbox_1 p:nth-of-type(1):before,
+.top_event_imgbox_1 p:nth-of-type(1)::after {
+	border: solid 2px #9B8400;
+}
+.top_event_imgbox_1 p:nth-of-type(2):before,
+.top_event_imgbox_1 p:nth-of-type(2)::after {
+   border: 2px solid #9301E3; /* 左上のカッコ線 */
+}
+.svg_top_icon_1{
+	width:20%;
+	fill:#776500;
+}
+.svg_top_icon_2{
+	width:30%;
+	fill:#6B01A6;
+}
+
+
+
+
+
+.top_event_imgbox_2 p{
+	width:464px;
+	height:320px;
+	font-size: 32px;
+	line-height:1.6em;
+	font-weight: bold;
+	text-align: center;
+}
+.top_event_imgbox_2 p{
+   position: relative; /* 配置（基準） */
+}
+.top_event_imgbox_2 p::before
+{
+	content: ''; /* 擬似要素の内容なし */
+	position: absolute; /* 配置（位置指定）*/
+	width: 90%; /* カッコの幅 */
+	height: 85%; /* カッコの高さ */
+}
+.top_event_imgbox_2 p:nth-of-type(1):before{
+	border:5px double #DAC656;
+}
+.top_event_imgbox_2 p:nth-of-type(2):before{
+	border:5px double #793D91;
+}
+.top_event_imgbox_2 p a{
+	display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+	z-index: 10;
+
+}
+.top_event_imgbox_2 p:nth-of-type(1) a{
+	color:#705E00;
+}
+.top_event_imgbox_2 p:nth-of-type(2) a{
+	color:#4D1264;
+}
+
+.svg_top_icon_3{
+	width:20%;
+	fill:#705E00;
+}
+.svg_top_icon_4{
+	width:25%;
+	fill:#65247F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .juken_moushikomi_box_1{
 	background: #FDE6EE;
+	margin:16px auto;
   padding: 32px;
   border-radius: 16px;
 }
@@ -184,6 +311,9 @@
 	justify-content: space-evenly;
 	margin:16px auto;
 	color: #fff;
+}
+.juken_moushikomi_box p{
+	margin:8px 0 0;
 }
 .juken_moushikomi_box p:nth-child(1){
 	width: 100%;
@@ -264,9 +394,6 @@
 	}
 	.juken_moushikomi_box_1_inner a p{
 		font-size: 11px;
-	}
-	.top_event_imgbox p{
-		margin: 8px 0 32px;
 	}
 
 	.juken_moushikomi_box_inner div a{
