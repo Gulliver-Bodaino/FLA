@@ -139,4 +139,5 @@
     </div>
     <p id="footer_copy">Copyright(C) 2019 FLAネットワーク®協会 All Rights Reserved</p>
   </div>
-  <p id="pagetop"><a href="#page_top"><img src="/img/page_top.gif" width="56" height="56" alt="ページの先頭へ" class="btnover" /></a></p>  
+  <p id="pagetop"><a href="#page_top"><img src="/img/page_top.gif"></a></p> 
+

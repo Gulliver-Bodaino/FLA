@@ -232,6 +232,7 @@ img{height:auto;max-width:100%;}
 #side_navi{display:none;}
 /*side_navi booter_link end */
 #pagetop{right:5px;bottom:10px;}
+.top_sc{right:5px;bottom:10px;}
 #privacy_mark{text-align:center;margin:0 auto;padding:0;width:20%;}
 #privacy_mark img{max-width:100%;}
 /* Contents-----------------------------------------------------------------------------*/
@@ -633,7 +634,6 @@ display:block;background-color:#ff8332;}
 #gansho #gansho_attention .g_a_tit .fl{color:#FFF;border-radius:3px;padding:5px 10px;line-height:100%;display:block;text-align:center;margin-bottom:10px;}
 #gansho .txt28{font-size:20px;line-height:1.5;}
 /* event-----------------------------------------------------------------------------*/
-#event #event_page_title{}
 #event #event_main{padding:0 18px 18px 18px;}
 #event .box_in h3{font-size:16px;font-weight:normal;color:#5c9aea;text-align:center;padding:55px 0 660px 0;}
 #event .pdf_title{font-size:16px;padding-bottom:10px;}

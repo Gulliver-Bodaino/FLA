@@ -293,3 +293,11 @@ display:-ms-flexbox;
 /*\*/
 * html .cb { height: 1em; overflow: visible; }
 /**/
+
+
+.top_sc{
+  right: 10px;
+  bottom: 20px;
+  position: fixed;
+	z-index: 10;
+}

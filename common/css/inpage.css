@@ -906,24 +906,16 @@ text-align:center;margin:0 auto;}
 	font-size: 18px;
 	text-align: center;
 	font-weight: bold;
-	border-radius: 8px;
+	border-radius: 4px;
 }
 .btm_licens p a{
 	display: block;
 	padding:8px;
+	color:#fff;
 }
-
 .btm_licens p:nth-child(1){
-	background:#F8CCDB;
-	border:2px solid #E27DA1;
-}
-.btm_licens p:nth-child(1) a{
-	color:#A92F5A;
+	background:#E27DA1;
 }
 .btm_licens p:nth-child(2){
-	background:#E7C2EB ;
-	border:2px solid #A862AF;
-}
-.btm_licens p:nth-child(2) a{
-	color:#76257F;
+	background:#A862AF ;
 }
