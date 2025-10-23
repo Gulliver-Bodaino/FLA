@@ -127,7 +127,7 @@
 }
 .tape_1::after,
 .tape_2::after{
-	content:'';
+	content:'食アド®　食アド®　食アド®';
 	position: absolute;
 	top:0;
   left:25%;
@@ -137,7 +137,14 @@
 	margin:-25px auto 0;
 	transform:rotate(-4deg);
   box-shadow:0 0 5px rgba(0,0,0,.2);	
+	font-size: 16px;
 	opacity:1;
+}
+.tape_1::after{
+	color:#705E00;
+}
+.tape_2::after{
+	color:#4D1264;
 }
 .tape_1::after{
 	background:#F8FCAD;
@@ -365,6 +372,16 @@
 .juken_moushikomi_box_inner a p{font-size: 1.2rem;}
 
 
+
+
+@media (max-width: 800px){
+	.tape_1::after,
+	.tape_2::after{
+		content:'食アド®　食アド®';
+	}
+}
+
+
 @media (max-width: 767px) {
 	.top_event_imgbox_1 p,
 	.top_event_imgbox_2 p{
@@ -402,6 +419,13 @@
 		font-size: 1rem;
 	}
 }
+@media (max-width: 560px){
+	.tape_1::after,
+	.tape_2::after{
+		content:'食アド®';
+	}
+}
+
 @media (max-width: 512px) {
 	.juken_moushikomi_box_1{
     padding: 12px;
