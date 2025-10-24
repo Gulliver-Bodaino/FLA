@@ -288,6 +288,11 @@ display:-ms-flexbox;
 	.layout_box4 > * .link_btn,
 	.layout_box3 > * .link_btn,
 	.layout_box2 > * .link_btn{margin-bottom: 0;}
+
+	.btm_licens p.sm_w80{
+		width:80px;
+	}
+
 }
 /*  align
 -----------------------------------------------------------------------------*/
