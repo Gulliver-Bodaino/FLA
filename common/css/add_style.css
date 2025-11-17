@@ -144,13 +144,13 @@
 	color:#705E00;
 }
 .tape_2::after{
-	color:#4D1264;
+	color:#5B8615;
 }
 .tape_1::after{
 	background:#F8FCAD;
 }
 .tape_2::after{
-	background:#997FD9;
+	background:#C5EB88;
 }
 
 
@@ -178,7 +178,7 @@
 	border:5px double #DAC656;
 }
 .top_event_imgbox_1 p:nth-of-type(2):before{
-	border:5px double #793D91;
+	border:5px double #5E8B14;
 }
 .top_event_imgbox_1 p a{
 	display: flex;
@@ -192,18 +192,8 @@
 	color:#705E00;
 }
 .top_event_imgbox_1 p:nth-of-type(2) a{
-	color:#4D1264;
+	color:#406800;
 }
-
-.svg_top_icon_3{
-	width:20%;
-	fill:#705E00;
-}
-.svg_top_icon_4{
-	width:25%;
-	fill:#65247F;
-}
-
 
 
 
@@ -254,7 +244,7 @@
 }
 .svg_top_icon_4{
 	width:25%;
-	fill:#65247F;
+	fill:#406800;
 }
 
 
@@ -291,7 +281,7 @@
 	display:block;
 	width:320px;
 	margin:16px auto;
-	background: white;
+	background: #fff;
   border-radius: 24px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.2);
   padding: 24px;
@@ -374,11 +364,27 @@
 
 
 
+
+
+.none_w800{
+	display: none;
+}
+
+
 @media (max-width: 800px){
 	.tape_1::after,
 	.tape_2::after{
 		content:'食アド®　食アド®';
 	}
+	.none_w800{
+		display:block;
+	}
+	.juken_moushikomi_box_1{
+		width: 98%;
+		margin: auto;
+}
+
+
 }
 
 
@@ -398,9 +404,6 @@
 		width:96px;
 	}
 
-	.juken_moushikomi_box_1{
-		border-radius:0;
-	}
 	.juken_moushikomi_box_1_inner a{width:48%;}
 	.juken_moushikomi_box{width:98%;}
 	.juken_moushikomi_box_inner div a{width:100%;}

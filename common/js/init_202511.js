@@ -101,7 +101,7 @@ $(function(){
   
   
   $("#footer_incbox").load("/include/footer_202511.inc");
-  $("#side_incbox").load("/include/side.inc");
+  $("#side_incbox").load("/include/side_202511.inc");
 }
 
   function links(){

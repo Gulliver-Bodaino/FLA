@@ -98,3 +98,47 @@ input{font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体"
 #contents #side{width:200px;float:left;}
 #contents #side #side_banner li{margin-bottom:10px;}
 /* side end ---------------*/
+
+
+
+#footer_2{
+  box-sizing: border-box;
+  color: #FFF;
+  padding-left: inherit;
+  padding-right: inherit;
+  right: 0;
+  left: 0;
+  background: #ff6b00;
+  position: absolute;
+}
+
+#footer_2 #footer_title,
+#footer_2 ul{
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  margin: 0px auto;
+  padding: 8px 8px 8px 24px;
+}
+#footer_2 #footer_title{
+  padding: 0;
+}
+#footer_2 ul li{
+  width: 208px;
+  padding: 8px 40px 8px 0px;
+  font-size: 12px;
+  font-weight: bold;
+  list-style-image: url(../../img/footer_yazirusi01.gif);
+}
+
+#footer_2 ul li a{
+  color:#fff;
+}
+#footer_2 ul li ul{
+  width: 240px;
+  padding: 2px 0 8px 0;
+  list-style-image: url(../../img/footer_yazirusi02.gif);
+}#footer_2 ul li ul li{
+  padding: 4px 40px 4px 0px;
+  list-style-image: url(../../img/footer_yazirusi02.gif);
+}
