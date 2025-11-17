@@ -50,7 +50,7 @@
 .onepoint_tit img{vertical-align:middle;margin-right:10px;float:left;}
 .square_ico:before{padding:0 3px 0 0;content:"◆";color:#ff9232;font-size:16px;font-weight:bold;}
 .br_sp{display:none;}
-.navi01,.navi02,.navi03,.navi04, .navi05,.navi06{font-weight: bold;}
+.navi01,.navi02,.navi03,.navi04, .navi05,.navi06,.navi07{font-weight: bold;}
 .navi_dropdown{font-weight: 300;}
 sup, sub{line-height:1;vertical-align:baseline;height:0;position:relative;}
 sup{bottom:1ex;}
