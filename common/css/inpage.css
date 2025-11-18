@@ -1079,47 +1079,85 @@ text-align:center;margin:0 auto;}
   background: #5F8635;
 }
 
-#top_jukenhyou table{
+
+
+
+
+
+
+
+
+
+#top_jukenhyou table,
+.main_table.table_2{
   width: 100%;
   border-collapse: collapse;
   margin-top: 0;
 }
-#top_jukenhyou table td{
+.main_table.table_2{
+  border:1px solid #DBC792;
+  border-style:none solid;
+}
+
+#top_jukenhyou table td,
+.main_table.table_2 tr th,
+.main_table.table_2 tr td{
   border-bottom: 1px solid #DBC792;
+  border-style: none none solid;
   padding: 10px 16px;
   vertical-align: top;
   font-size: 14px;
   color: #333;
 }
-#top_jukenhyou table tr:first-of-type td{
+#top_jukenhyou table tr:first-of-type td,
+.main_table.table_2 tr:first-of-type *{
   border-top: 1px solid #DBC792;
+  border-style:solid none solid none;
 }
+ 
 #top_jukenhyou table tr:last-of-type td{
   border:none;
 }
 
-#top_jukenhyou table tr td{
+#top_jukenhyou table tr td,
+.main_table.table_2 tr td{
   background: #FFF8E5;
 }
 
-#top_jukenhyou table tr td:nth-of-type(2){
+#top_jukenhyou table tr td:nth-of-type(2),
+.main_table.table_2 th{
   background: #E7E8ED;
 }
-#top_jukenhyou table tr.shiken td{
+#top_jukenhyou table tr.shiken td,
+.main_table.table_2 tr.shiken *{
   background: #FDE6EE;
   color: #C63A7F;
   font-weight: bold;
 }
-#top_jukenhyou table tr:hover td{
+#top_jukenhyou table tr:hover td,
+.main_table.table_2 tr:hover td{
 	background: #FFF1CB;
 	font-weight: bold;
 }
-#top_jukenhyou table tr:hover td:nth-last-of-type(2){
+#top_jukenhyou table tr:hover td:nth-last-of-type(2),
+.main_table.table_2 tr:hover th{
 	background: #BEC0D0;
 }
-#top_jukenhyou table tr.shiken:hover td{
+#top_jukenhyou table tr.shiken:hover td,
+.main_table.table_2 tr.shiken:hover *{
   background: #E7C2EB;
   color: #8D0A4A;
+}
+
+#top_jukenhyou table tr.data_end td,
+#top_jukenhyou table tr.data_end td:nth-of-type(2),
+.main_table.table_2 tr.data_end *{
+  background: #C3C6D5;
+  border:1px solid #979CB7;
+  border-style:solid none;
+}
+.main_table.table_2 tr.data_end:hover *{
+  background: #C3C6D5;
 }
 
 
@@ -1203,37 +1241,74 @@ text-align:center;margin:0 auto;}
     width: 100%;
     border-bottom:1px solid #DBC792;
   }
-  #top_jukenhyou table tr:nth-child(odd) td{
+  .main_table.table_2 th{
+    text-align: left;
+  }
+  
+  #top_jukenhyou table tr:nth-child(odd) td,
+  .main_table.table_2 tr:nth-child(odd) *{
     background: #E7E8ED;
   }
-  #top_jukenhyou table tr:nth-child(even) td{
+  #top_jukenhyou table tr:nth-child(even) td,
+  .main_table.table_2 tr:nth-child(even) *{
     background: #FFF8E5;
   }
-  #top_jukenhyou table tr.shiken td{
+  #top_jukenhyou table tr.data_end td,
+  .main_table.table_2 tr.data_end *{
+    background: #C3C6D5; 
+  }
+  #top_jukenhyou table tr.shiken td,
+  .main_table.table_2 tr.shiken *{
     background: #FDE6EE;
     color: #C63A7F;
-    font-weight: bold    
+    font-weight: bold;
   }
-  #top_jukenhyou table tr:nth-child(even):hover td{
+  #top_jukenhyou table tr:nth-child(even):hover td,
+  .main_table.table_2 tr:nth-child(even):hover *{
 	background: #FFF1CB;
 	font-weight: bold;
   }
-  #top_jukenhyou table tr:nth-child(odd):hover td{
+  #top_jukenhyou table tr:nth-child(odd):hover td,
+  .main_table.table_2 tr:nth-child(odd):hover *{
     background: #BEC0D0;
   }
-  #top_jukenhyou table tr.shiken:hover td{
+  #top_jukenhyou table tr.data_end:hover td,
+  .main_table.table_2 tr.data_end:hover *{
+    background: #C3C6D5; 
+  }
+
+
+
+
+  #top_jukenhyou table tr.shiken:hover td,
+  .main_table.table_2 tr.shiken:hover *{
     background: #E7C2EB;
     color: #8D0A4A;
   }
   #top_jukenhyou table tr:first-of-type td{
     border-top:1px solid #DBC792;
+    border-bottom:none;
   }
-  #top_jukenhyou table tr:first-of-type td:nth-of-type(2){
+  #top_jukenhyou table tr.data_end:first-of-type td,
+  .main_table.table_2 tr.data_end:first-of-type th{
+    border-top:1px solid #979CB7;
+  }
+
+  #top_jukenhyou table tr:first-of-type td:nth-of-type(2),
+  #top_jukenhyou table tr.data_end td,
+  #top_jukenhyou table tr.data_end td:nth-of-type(2),
+  .main_table.table_2 tr.data_end *,
+  .main_table.table_2 tr.shiken td{
     border:none;
   }
   #top_jukenhyou table tr:first-of-type td:nth-of-type(3){
     border-top:none;
     border-bottom:1px solid #DBC792;
+  }
+  #top_jukenhyou table tr.data_end td:nth-of-type(3),
+  .main_table.table_2 tr.data_end td{
+    border-top:none;
+    border-bottom:1px solid #979CB7;
   }
   .shoseki_box p{
     width: 100%;
