@@ -1032,7 +1032,7 @@ text-align:center;margin:0 auto;}
 #top_jukenhyou{
   width:100%;
   background: #FFF8E5;
-  border: 2px solid #DBC792;
+  border: 2px solid #F1B41F;
   border-radius: 8px;
   margin: 40px auto;
   font-family: "Noto Sans JP", sans-serif;
@@ -1043,7 +1043,7 @@ text-align:center;margin:0 auto;}
   justify-content: space-between;
   align-items: center;
   padding: 16px 20px;
-  background: #FFF8E5;
+  background: #F1B41F;
 }
 #top_jukenhyou_inner h2{
   flex: 1;
@@ -1159,6 +1159,16 @@ text-align:center;margin:0 auto;}
   background: #C3C6D5;
 }
 
+.top_note{
+  width: 99%;
+  margin: 16px auto 8px;
+  background: #E50012;
+  padding: 16px;
+  text-align: center;
+  color:#fff;
+  font-size: 32px;
+  font-weight: bold;
+}
 
 .course2_box{
   position: relative;

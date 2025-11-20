@@ -13,36 +13,50 @@
     <ul id="navi">
       <li class="navi01"><a href="/">TOPページ</a></li>
       <li class="navi02"><a class="color_change" href="/juken/">個人受験案内</a>
-        <ul class="navi_dropdown">
-          <li><a href="/ado/">食生活アドバイザー<sup>&#174;</sup>とは</a></li>
-          <li><a href="/juken/">3級・2級・1級試験概要</a></li>
-          <li><a href="/pdf/20251125_preparation.pdf">受験までの流れ</a></li>
-          <li><a href="/juken/curriculum.html">模範解答</a></li>
-          <li><a href="/juken/mogi3.html">各級カリキュラム</a></li>
-          <li><a href="/juken/mogi3.html">チャレンジ問題3級</a></li>
-          <li><a href="/juken/mogi2.html">チャレンジ問題2級</a></li>
-          <li><a href="/juken/mogi1.html">チャレンジ問題1級</a></li>
-        </ul>
-      </li>
+      <ul class="navi_dropdown">
+				<li><a href="/juken/kentei.html">食生活アドバイザー<sup>&#174;</sup>検定とは</a></li>
+				<li><a href="/juken/">3級.2級試験概要</a></li>
+				<li><a href="/juken/#a1">1級 試験概要</a></li>
+				<li><a href="/juken/mohan.html">模範解答</a></li>
+				<li><a href="/juken/curriculum.html">各級カリキュラム</a></li>
+				<li><a href="/juken/mogi3.html">チャレンジ問題3級</a></li>
+				<li><a href="/juken/mogi2.html">チャレンジ問題2級</a></li>
+				<li><a href="/juken/mogi1.html">チャレンジ問題1級</a></li>
+				<li><a href="/gansho/">願書請求</a></li>
+      </ul>
+	  </li>
       <li class="navi07"><a class="color_change" href="/pass/">合格講座</a></li>
-      <li class="navi05"><a href="/shoseki/" class="color_change">書籍紹介/問題集</a>
-        <ul class="navi_dropdown">
-          <li><a href="/shoseki/">書籍紹介</a></li>
-          <li><a href="/shoseki/past.html">過去問題集</a></li>
-        </ul>
-      </li>
       <li class="navi03"><a class="color_change" href="/dantai/">団体受験案内</a></li>
-      <li class="navi04"><a class="color_change" href="https://shoku-ad.jp/club2022/academy/">会員制度</a></li> 
+      <li class="navi04"><a class="color_change" href="https://shoku-ad.jp/club2022/academy/">食アド<sub class="topnavi_sub">®</sub>Academy</a>
+      <ul class="navi_dropdown">
+<!--フォーム-->
+<!--
+                <li><a href="https://ssl.flanet.jp/academy_form/">食アド<sub class="topnavi_sub">®</sub>Academyのお申込み</a></li>
+-->
+<!--20211221に全部非表示に
+                <li><a href="/academy/pdf/tugakusei1005.pdf">食アド<sub class="topnavi_sub">®</sub>Academyのお申込み</a></li>
+                <li><a href="/academy/pdf/tugakusei0715.pdf">通学制合格指導講座</a></li>
+                <li><a href="/academy/index.html">食アド<sub class="topnavi_sub">®</sub>Academyのご案内</a></li>
+-->
+      </ul>
+      </li> 
+      <li class="navi05"><a href="/shoseki/" class="color_change">書籍紹介/問題集</a>
+      <ul class="navi_dropdown">
+      
+      
+      
+				<li><a href="/shoseki/">書籍紹介</a></li>
+				<li><a href="/shoseki/past.html">過去問題集</a></li>
+      </ul></li>
       <li class="navi06"><a href="/qa/">Q&amp;A</a></li>
     </ul>
-
     <ul id="sp_navi">
       <li class="navi01"><a href="/">TOPページ</a></li>
       <li class="navi02"><a href="/juken/">個人受験案内</a></li>
       <li class="navi07"><a href="/pass/">合格講座</a></li>
-      <li class="navi05"><a href="/shoseki/">書籍案内/過去問題集</a></li>
       <li class="navi03"><a href="/dantai/">団体受験案内</a></li>
-      <li class="navi04"><a href="https://shoku-ad.jp/club2022/academy/">会員制度</a></li>
+      <li class="navi04"><a href="https://shoku-ad.jp/club2022/academy/">食アド<sup>®</sup>アカデミー</a></li>
+      <li class="navi05"><a href="/shoseki/">書籍案内/過去問題集</a></li>
       <li class="navi06"><a href="/qa/">Q&amp;A</a></li>
     </ul>
     <ul id="header_link">
