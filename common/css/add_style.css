@@ -269,11 +269,56 @@
   border-radius: 16px;
 }
 .juken_moushikomi_box_1 h2{
-  margin-bottom: 16px;
   font-size: 24px;
 	text-align: center;
 	color: #C63A7F;
 }
+
+.title_box_1{
+	position: relative;
+	height:80px;
+}
+.title_box_1 h2{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+		width: 100%;;
+}
+.title_box_1 p{
+	position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+	margin: 0;
+}
+.title_box_1 p a{
+	display: block;
+	padding: 8px 16px;
+	font-size: 14px;
+	color: #C63A7F;
+	font-weight: bold;
+	background: #fff;
+	border: 1px solid #C63A7F;
+	border-radius: 8px;
+}
+.title_box_1 p a:hover{
+	background: #C63A7F;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 8px;
+}
+
+
+
+
+
+
+
 .juken_moushikomi_box_1_inner{
 	display:flex;
 	margin:auto;
@@ -380,7 +425,14 @@
 	.juken_moushikomi_box_1{
 		width: 98%;
 		margin: auto;
-}
+	}
+	.title_box_1 h2{
+    left: 0;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+		width: 70%;
+	}
 
 
 }
@@ -419,6 +471,32 @@
 	.juken_moushikomi_box_inner a p{
 		font-size: 1rem;
 	}
+}
+@media (max-width: 600px) {
+	.title_box_1,
+	.title_box_1 h2,
+	.title_box_1 p
+	{
+		position: static;
+		transform: translate(0, 0);
+	}
+	.title_box_1{
+		height: auto;
+	}
+	.title_box_1 h2{
+		width: 100%;
+		margin: 16px auto;
+		font-size: 20px;
+	}
+	.title_box_1 p a{
+		width: 70%;
+		margin: 16px auto 4px;
+		font-size: 14px;
+		text-align: center;
+
+	}
+
+
 }
 
 @media (max-width: 512px) {

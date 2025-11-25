@@ -92,6 +92,7 @@ sub{top:.5ex;}
 .main_table thead th{background:#f1bb38;}
 .main_table thead td{background:#fbfaeb;}
 .main_table tbody th{font-weight:bold;color:#ef8d00;background:#f9f6d9;padding:10px;text-align:center;}
+.main_table tbody tr th.mohan_red{color:#fff;background:#ED5077;}
 .main_table tbody td{background:#faf9f4;word-break:break-all;-webkit-word-break:break-all;}
 .main_table td{word-break:break-all;padding:10px;border:#ffffff 2px solid;}
 .main_table td .w78{width:45%;}
@@ -408,7 +409,7 @@ sub{top:.5ex;}
 #juken #mohan_main .main_table th{padding:2px 0;width:50%;}
 #juken #mohan_main .main_table td{padding:2px;}
 #juken #mohan03 .table_l{padding-right:5%;width:40%;float:left;}
-#juken #mohan03 .main_table th{width:40%;}
+#juken #mohan03 .main_table th{width:25%;}
 #juken #mohan03 .main_table td{text-align:left;padding-left:20px;}
 #juken #mohan03 .main_table td.title{text-align:center;padding:0;}
 #juken #ado dl{padding-bottom:30px;width:302px;}
@@ -994,10 +995,6 @@ text-align:center;margin:0 auto;}
 #academy #detail_contents #page_title h2 p{font-size: 20px;}
 #academy #detail_contents h2 p{margin-bottom: 15px;}
 #academy #detail_contents .new{font-size: 18px; border: 1px solid;padding: 5px;margin-right: 12px;}
-
-
-
-
 
 .examination_fee p,
 .Start_exam p{
