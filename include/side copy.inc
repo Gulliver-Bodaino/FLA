@@ -25,18 +25,11 @@
 
 <!--食アド® アカデミー-->
 <li id="side_banner27"><a href="https://shoku-ad.jp"><img src="/img/side_banner24.jpg" ait="食アド® アカデミー" class="btnover" /></a></li>
-
-
-
-
-
-
-
-
-
-
-
-
+<!--ユーキャン-->
+<li id="side_banner03"><a href="http://www.u-can.co.jp/course/data/in_html/1327/" target="_blank"><img src="/img/side_banner03.jpg" alt="ユーキャンの食生活アドバイザー（2級・3級）" class="btnover" /></a></li>
+<li id="side_banner08"><a href="http://www.u-can.co.jp/course/data/in_html/1400/" target="_blank" class="btnover"></a></li>
+<!--JMAM-->
+<li id="side_banner20"><a href="https://www.jmam.co.jp/tsukyocatalog/category.html" target="_blank"><img src="/img/side_banner18.gif" alt="JMAM" class="btnover" /></a></li>
 <li id="side_banner17"><a href="https://www.hj.sanno.ac.jp/cp/distance-learning/search/?kw=%E9%A3%9F%E7%94%9F%E6%B4%BB%E3%82%A2%E3%83%89%E3%83%90%E3%82%A4%E3%82%B6%E3%83%BC" target="_blank"><img src="/img/side_banner16.gif" alt="産能大通信講座" class="btnover" /></a></li>
 <li id="side_banner07"><a href="/pass/index.html"><img src="/img/side_banner07.jpg" alt="合格を目指して集中的に学習しよう 合格講座" class="btnover" /></a></li>
 <li><a href="/shoseki/"><img src="/img/side_banner09.gif" alt="書籍紹介" class="btnover" /></a></li>
@@ -54,12 +47,6 @@
 -->
 <p id="side_health_recipes"><a href="/recipe/"><img src="/img/side_banner14.gif" alt="食生活アドバイザー®のための健康レシピ" class="btnover" /></a></p>
 </li>
-<!--ユーキャン-->
-<li id="side_banner03"><a href="http://www.u-can.co.jp/course/data/in_html/1327/" target="_blank"><img src="/img/side_banner03.jpg" alt="ユーキャンの食生活アドバイザー（2級・3級）" class="btnover" /></a></li>
-<li id="side_banner08"><a href="http://www.u-can.co.jp/course/data/in_html/1400/" target="_blank" class="btnover"></a></li>
-<!--JMAM-->
-<li id="side_banner20"><a href="https://www.jmam.co.jp/tsukyocatalog/category.html" target="_blank"><img src="/img/side_banner18.gif" alt="JMAM" class="btnover" /></a></li>
-
 </ul>
 <!--side_banner end --> 
 

@@ -63,13 +63,13 @@ sub{top:.5ex;}
 .ill03{background:url(../../juken/img/03.png) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0;padding:40px 200px 40px 40px;}
 .ill03.period_wrp{background:url(../../juken/img/period_main_img.png) no-repeat 300px 0,url(../../juken/img/03.png) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0;padding:40px 200px 40px 40px; margin-bottom: 0 !important;}
 .ill04{background:url(../../juken/img/04.png) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0;padding:60px 200px 60px 40px;}
-.ill05{background:url(../../juken/img/05.png) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0;padding:60px 200px 60px 40px;}
+.ill05{background:url(../../juken/img/05_3.png) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0;padding:60px 200px 60px 40px;}
 .ill05_2{background:url(../../juken/img/05_02.png) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0;padding:60px 200px 60px 40px;}
 .ill06{background:url(../../juken/img/06.png) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0;padding:60px 200px 60px 40px;}
 .ill06_2{background:url(../../juken/img/06_02.png) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0;padding:60px 200px 60px 40px;}
 .ill07{background:url(../../juken/img/07.png) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0;padding:80px 200px 80px 40px;}
 .ill08{background:url(../../juken/img/08.png) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0;padding:80px 200px 80px 40px;}
-.ill09{background:url(../../juken/img/09.png) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0;padding:80px 200px 80px 40px;}
+.ill09{background:url(../../juken/img/09_1.png) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0;padding:80px 200px 80px 40px;}
 .ill10{background:url(../../juken/img/illust.png) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0;padding:60px 200px 60px 40px;}
 .ill11{background:url(../../juken/img/illust02.png) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0;padding:80px 200px 80px 40px;}
 .ill12{background:url(../../juken/img/illust03.png) no-repeat 90% 50%, url(../../img/bg_stripe.gif) 0 0;padding:80px 200px 80px 40px;}
@@ -686,22 +686,57 @@ text-align:center;margin:0 auto;}
 .shoseki_box{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .shoseki_box p{
-  width: 50%;
+  width: 144px;
+  margin: 16px;
 }
-.shoseki_box p:nth-of-type(2){
-  text-align: center;
-}
-.shoseki_box_2 p:nth-of-type(2){
-  margin: 16px auto ;
-  text-align: center;
-}
-.shoseki_box_2 p:nth-of-type(2) img:nth-of-type(2){
-  width:144px;
+.shoseki_box p img{
+  width:100%;
   height:auto;
   box-shadow:4px 4px 4px darkgray
 }
+.bubble{
+  position: relative;
+  display: block;
+	width: 100%;
+	margin: 0 0 4px 0;
+	text-align: center;
+	font-weight: bold;
+	color: #DF474F;
+	
+}
+.bubble:before, .bubble:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 40px;
+  height: 2px;
+  background-color: #DF474F;
+}
+.bubble:before {
+  left:-6px;
+  -webkit-transform: rotate(-125deg);
+  transform: rotate(-125deg);
+}
+.bubble:after {
+  right: -6px;
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+
+.bubble_red{
+	color: #fff;
+	background: #cb1f28;
+}
+.bubble_red:before, .bubble_red:after {
+  background-color: #cb1f28;
+}
+
+
+
 
 
 
@@ -1027,6 +1062,18 @@ text-align:center;margin:0 auto;}
 	background:#A862AF ;
 }
 
+.btm_licens .circle{
+	width:64px;
+	height:32px;
+	border-radius:32px;
+	display:inline-block;
+	margin-right:8px;
+	vertical-align:middle;
+	display: inline-flex;
+	justify-content: center;
+  align-items: center;
+}
+
 
 
 #top_jukenhyou{
@@ -1111,7 +1158,7 @@ text-align:center;margin:0 auto;}
 #top_jukenhyou table tr:first-of-type td,
 .main_table.table_2 tr:first-of-type *{
   border-top: 1px solid #DBC792;
-  border-style:solid none none none;
+  border-style:solid none solid none;
 }
  
 #top_jukenhyou table tr:last-of-type td{
@@ -1361,17 +1408,18 @@ text-align:center;margin:0 auto;}
     border-top:none;
     border-bottom:1px solid #979CB7;
   }
+	.shoseki_box{
+		justify-content: space-evenly;
+	}
   .shoseki_box p{
-    width: 100%;
-    margin-top: 32px;
+		width: 25%;
+		margin: 24px 8px 32px;
+		font-size: 14px;
+		line-height: 140%;
   }
-  .shoseki_box_2 p:nth-of-type(2) img{
-    width: 204px;
-  }
-  .shoseki_box_2 p:nth-of-type(2) img:nth-of-type(2){
-    width:96px;
-    height: auto;
-  }
+	.bubble:before, .bubble:after{
+		width: 32px;
+	}
     .course2_box::before{
     display: none;
   }

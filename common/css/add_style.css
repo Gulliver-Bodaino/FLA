@@ -127,7 +127,6 @@
 }
 .tape_1::after,
 .tape_2::after{
-	content:'食アド®　食アド®　食アド®';
 	position: absolute;
 	top:0;
   left:25%;
@@ -142,9 +141,11 @@
 }
 .tape_1::after{
 	color:#705E00;
+	content:'申込期間外';
 }
 .tape_2::after{
 	color:#5B8615;
+	content:'申込受付中';
 }
 .tape_1::after{
 	background:#F8FCAD;
@@ -292,7 +293,7 @@
 	background: #E7C2EB;
 }
 .juken_moushikomi_box_1_inner a h3{
-	margin-bottom:8px;
+	margin-bottom:16px;
 	font-size: 24px;
 	color: #C63A7F;
 }
@@ -372,10 +373,7 @@
 
 
 @media (max-width: 800px){
-	.tape_1::after,
-	.tape_2::after{
-		content:'食アド®　食アド®';
-	}
+
 	.none_w800{
 		display:block;
 	}
@@ -422,12 +420,6 @@
 		font-size: 1rem;
 	}
 }
-@media (max-width: 560px){
-	.tape_1::after,
-	.tape_2::after{
-		content:'食アド®';
-	}
-}
 
 @media (max-width: 512px) {
 	.juken_moushikomi_box_1{
@@ -467,11 +459,14 @@
 	.flex_box_jcsa.top_event_imgbox_2.mtb_64p{
 		margin:32px auto;
 	}
+	.flex_box_jcsa.top_event_imgbox_1.mtb_24p{
+	  flex-wrap: wrap;
+	}
 	.top_event_imgbox_1 p,
 	.top_event_imgbox_2 p {
-		width: 46%;
-		height:192px;
-		padding-top:16px;
+		width: 80%;
+		height:144px;
+		padding-top:0;
 	}
 	.svg_top_icon_3,
 	.svg_top_icon_4 {
