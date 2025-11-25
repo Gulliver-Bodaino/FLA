@@ -173,7 +173,7 @@
 
 #column #column_page_title .c_p_tit {
   transform: translateY(-50%) translateX(-50%);
-  -webkit- transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
   font-size: 12px;
   line-height: 19px;
   text-align: center;
@@ -231,15 +231,11 @@
 
 /*  event
 -----------------------------------------------------------------------------*/
-#event #event_page_title {
-  
-}
-
 #event #event_main { padding: 0 18px 18px 18px; }
 
 #event .box_in h3 {
-  text-size: 16px;
-  text-weight: normal;
+  font-size: 16px;
+  font-weight: normal;
   color: #5c9aea;
   text-align: center;
   padding: 55px 0 660px 0;
@@ -272,11 +268,6 @@
   font-size: 18px;
   color: #ff4e20;
 }
-
-#dantai .color_box {
-  
-}
-
 #dantai .tel_box { padding: 0 10% 30px 10%; }
 .br_sp { display: block; }
 
@@ -348,10 +339,6 @@
   float: none !important;
 }
 
-#dantai #one_point h4 {
-  
-}
-
 #dantai #one_point p { padding-bottom: 20px; }
 
 #dantai #one_point .color_box2 {
@@ -416,7 +403,7 @@
 
 #gokaku .page_title .title_txt {
   transform: translateY(-50%) translateX(-50%);
-  -webkit- transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
   font-size: 24px;
   color: #555;
   margin: 0;
@@ -448,10 +435,6 @@
 #gokaku h3 {
   text-align: center;
   margin-top: 20px;
-}
-
-#gokaku p {
-  
 }
 
 #gokaku rb { font-size: 18px; }
@@ -520,17 +503,3 @@ font-size: 12px;
     display: inline-block;
     background: url(../../img/icon_tel.gif) no-repeat 0 5px;
 }
-
-
-}
-
-@media only screen and (max-width:361px) {
-  
-}
-
-@media not screen and (1) {
-  .page-top { position: static; }
-
-}
-
-*//* Opera10??? */
