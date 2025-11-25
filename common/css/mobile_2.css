@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
-@media only screen and (max-width:1500px) {;
-}
-
-@media only screen and (min-width:900px) and (max-width:1300px) {
+@media screen and (min-width:900px) and (max-width:1300px) {
 /*  Footer
 -----------------------------------------------------------------------------*/
 
@@ -392,9 +389,6 @@
 #column_main h3 {
 	text-align: left!important;
 }
-/* column2 */
-#column #column2_main .tit h4 {
-}
 #column #column2_main .tit p {
 	font-size: 12px;
 	letter-spacing: normal;
@@ -430,7 +424,7 @@
 /*  kaiin
 -----------------------------------------------------------------------------*/
 #kaiin #kaiin_page_title {
- no-repeat, repeat;
+ 	background-repeat: no-repeat, repeat;
 	color: #fff;
 	margin-bottom: 15px;
 	padding: 30px 100px 30px 20px;
@@ -446,7 +440,7 @@
 	text-align: left;
 }
 #kaiin #kaiin_page_title p {
-	font-wight: normal;
+	font-weight: normal;
 	font-size: 14px;
 	margin-top: 10px;
 	width: 100%;
@@ -607,7 +601,7 @@
 	font-weight: bold;
 	color: #ff6b00;
 	padding: 0 5px 0 0;
- content: content: counters(item, ".") ". ";
+ content: counters(item, ".") ". ";
 	counter-increment: item;
 }
 /* common */
@@ -641,7 +635,7 @@
 	text-align: center;
 }
 .pictxt_blc dl dd.fr {
-	font-sizetext-align: left;
+	text-align: left;
 	padding-left: 0;
 	float: none;
 }
@@ -823,7 +817,6 @@
 	margin-bottom: 30px;
 }
 .example_tit img {
-	vertical-align: middle;
 	margin: 0 auto 10px;
 	display: block;
 	float: none;
@@ -831,14 +824,13 @@
 /*  _test
 -----------------------------------------------------------------------------*/
 #test #test_page_title {
- no-repeat, repeat;
 	color: #fff;
 	margin-bottom: 0;
 	padding: 20px 120px 20px 20px;
 	background: url(../../_test/img/index_main_tit.gif), url(../../img/bg_stripe.gif);
 	background-position: 98% 50%, 0 0;
 	background-repeat: no-repeat, repeat;
-	background-size: containar;
+	background-size: contain;
 }
 #test #test_page_title h2 {
 	font-size: 22px;
@@ -847,20 +839,9 @@
 	text-align: left;
 }
 #test #test_page_title p {
-	font-wight: normal;
+	font-weight: normal;
 	font-size: 14px;
 	margin-top: 10px;
 	width: 100%;
 }
-/* end */
-
 }
-
-@media only screen and (max-width:361px) {;
-}
- @media not screen and (1) {
- .page-top {
-position: static;
-}
-}
- *//* Opera10以上 */

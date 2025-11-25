@@ -141,17 +141,15 @@
      var result = {};
      if(window.innerWidth){
        var box = d.createElement('div');
-       with(box.style){
-         position = 'absolute';
-         top = '0px';
-         left = '0px';
-         width = '100%';
-         height = '100%';
-         margin = '0px';
-         padding = '0px';
-         border = 'none';
-         visibility = 'hidden';
-       }
+       box.style.position = 'absolute';
+       box.style.top = '0px';
+       box.style.left = '0px';
+       box.style.width = '100%';
+       box.style.height = '100%';
+       box.style.margin = '0px';
+       box.style.padding = '0px';
+       box.style.border = 'none';
+       box.style.visibility = 'hidden';
        d.body.appendChild(box);
        var width = box.offsetWidth;
        var height = box.offsetHeight;
