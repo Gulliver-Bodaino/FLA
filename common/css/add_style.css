@@ -275,26 +275,9 @@
 }
 
 .title_box_1{
-	position: relative;
-	height:80px;
-}
-.title_box_1 h2{
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-		width: 100%;;
-}
-.title_box_1 p{
-	position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translate(0, -50%);
-  -webkit-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-	margin: 0;
+	display: flex;
+	justify-content: space-evenly;
+  align-items: center;
 }
 .title_box_1 p a{
 	display: block;
@@ -407,14 +390,11 @@
 }
 .juken_moushikomi_box_inner a p{font-size: 1.2rem;}
 
-
-
-
-
-
+.pc_none,
 .none_w800{
 	display: none;
 }
+
 
 
 @media (max-width: 800px){
@@ -427,16 +407,10 @@
 		margin: auto;
 	}
 	.title_box_1 h2{
-    left: 0;
-    transform: translate(0, -50%);
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
 		width: 70%;
+		line-height: 1.4em;;
 	}
-
-
 }
-
 
 @media (max-width: 767px) {
 	.top_event_imgbox_1 p,
@@ -446,12 +420,13 @@
 	.top_event_imgbox_1 p a,
 	.top_event_imgbox_2 p a{
 		flex-wrap: wrap;
-		font-size:28px;
+		font-size:22px;
+    line-height: 2em;
 	}
 	.svg_top_icon_3,
 	.svg_top_icon_4{
 		display: block;
-		width:96px;
+		width:80px;
 	}
 
 	.juken_moushikomi_box_1_inner a{width:48%;}
@@ -473,27 +448,14 @@
 	}
 }
 @media (max-width: 600px) {
-	.title_box_1,
-	.title_box_1 h2,
-	.title_box_1 p
-	{
-		position: static;
-		transform: translate(0, 0);
-	}
-	.title_box_1{
-		height: auto;
-	}
 	.title_box_1 h2{
-		width: 100%;
 		margin: 16px auto;
 		font-size: 20px;
 	}
 	.title_box_1 p a{
-		width: 70%;
 		margin: 16px auto 4px;
 		font-size: 14px;
 		text-align: center;
-
 	}
 
 
@@ -533,6 +495,9 @@
 	}
 }
 @media (max-width: 480px){
+	.pc_none{
+		display:block;
+	}
 	.flex_box_jcsa.top_event_imgbox_1.mtb_64p,
 	.flex_box_jcsa.top_event_imgbox_2.mtb_64p{
 		margin:32px auto;
@@ -557,4 +522,14 @@
 		font-size: 20px;
 		line-height: 1.6em;
 	}
+	.title_box_1{
+		display: block;
+	}
+	.title_box_1 h2{
+		width: 100%;
+	}
+	.title_box_1 p a{
+		width: 70%;
+	}
+
 }
