@@ -85,6 +85,7 @@ sub{top:.5ex;}
 
 /* detail_contents start */
 #detail_contents{padding:40px 16px;border-style:solid;border-width:8px;border-color:#ff6b00;}
+#recipe #detail_contents{padding: 40px;}
 /* detail_contents end */
 /* main_table start */
 .main_table{font-size:13px;margin-bottom:15px;border-collapse:collapse;width:100%;}
