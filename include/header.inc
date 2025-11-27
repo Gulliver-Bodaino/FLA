@@ -17,11 +17,21 @@
           <li><a href="/ado/">食生活アドバイザー<sup>&#174;</sup>とは</a></li>
           <li><a href="/juken/">3級・2級・1級試験概要</a></li>
           <li><a href="/pdf/20251125_preparation.pdf">受験までの流れ</a></li>
+          <li><a href="/juken/mohan.html">模範解答</a></li>
+          <li><a href="/juken/curriculum.html">各級カリキュラム</a></li>
+          <li><a href="/pdf/20251125_preparation.pdf">チャレンジ問題3級</a></li>
+          <li><a href="/pdf/20251125_preparation.pdf">チャレンジ問題2級</a></li>
+          <li><a href="/pdf/20251125_preparation.pdf">チャレンジ問題1級</a></li>
+        <!-- 
+          <li><a href="/ado/">食生活アドバイザー<sup>&#174;</sup>とは</a></li>
+          <li><a href="/juken/">3級・2級・1級試験概要</a></li>
+          <li><a href="/pdf/20251125_preparation.pdf">受験までの流れ</a></li>
           <li><a href="/juken/curriculum.html">模範解答</a></li>
           <li><a href="/juken/mogi3.html">各級カリキュラム</a></li>
           <li><a href="/juken/mogi3.html">チャレンジ問題3級</a></li>
           <li><a href="/juken/mogi2.html">チャレンジ問題2級</a></li>
           <li><a href="/juken/mogi1.html">チャレンジ問題1級</a></li>
+        -->
         </ul>
       </li>
       <li class="navi07"><a class="color_change" href="/pass/">合格講座</a></li>
