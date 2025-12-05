@@ -38,7 +38,7 @@
       <li class="navi05"><a href="/shoseki/" class="color_change">書籍紹介/問題集</a>
         <ul class="navi_dropdown">
           <li><a href="/shoseki/">書籍紹介</a></li>
-          <li><a href="/shoseki/past.html">過去問題集</a></li>
+          <li><a href="/shoseki/past.html">問題集</a></li>
         </ul>
       </li>
       <li class="navi03"><a class="color_change" href="/dantai/">団体受験案内</a></li>
