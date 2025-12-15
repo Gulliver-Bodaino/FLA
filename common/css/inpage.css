@@ -1123,16 +1123,6 @@ text-align:center;margin:0 auto;}
 #top_jukenhyou_inner p a:hover {
   background: #5F8635;
 }
-
-
-
-
-
-
-
-
-
-
 #top_jukenhyou table,
 .main_table.table_2{
   width: 100%;
@@ -1152,6 +1142,12 @@ text-align:center;margin:0 auto;}
   padding: 10px 16px;
   font-size: 14px;
   color: #333;
+}
+#top_jukenhyou table tr:first-of-type td:first-of-type{
+  width: 160px;
+}
+#top_jukenhyou table tr:first-of-type td:last-of-type{
+  width: 360px;
 }
 #top_jukenhyou table tr:first-of-type td,
 .main_table.table_2 tr:first-of-type *{
@@ -1200,6 +1196,14 @@ text-align:center;margin:0 auto;}
   border:1px solid #979CB7;
   border-style:solid none;
 }
+
+#top_jukenhyou table.jukenhyou_2 tr:first-of-type td:last-of-type{
+  width: 260px;
+
+}
+
+
+
 .main_table.table_2 tr.data_end:hover *{
   background: #C3C6D5;
 }
@@ -1248,6 +1252,12 @@ text-align:center;margin:0 auto;}
   }
   #top_jukenhyou_inner p{
     text-align: center;
+  }
+  #top_jukenhyou table tr:first-of-type td:nth-of-type(2){
+    width: 248px;
+  }
+  #top_jukenhyou table tr:first-of-type td:last-of-type{
+    width: auto;
   }
   .course2_box{
     flex-wrap: wrap;
@@ -1300,8 +1310,6 @@ text-align:center;margin:0 auto;}
   .main_table.table_2 tr:first-of-type td{
     border-bottom:none;
   }
-
-
   .main_table.table_2 tr.data_end:first-of-type th,
   .main_table.table_2 tr.data_end:first-of-type td{
     border-top:1px solid #979CB7 !important;
@@ -1314,6 +1322,7 @@ text-align:center;margin:0 auto;}
     border-top:none;
     border-bottom:1px solid #979CB7 !important;
   }
+
 }
 @media (max-width: 680px){
   #top_jukenhyou_inner{
@@ -1421,7 +1430,8 @@ text-align:center;margin:0 auto;}
     .course2_box::before{
     display: none;
   }
-  .course2_box_inner{
+  .course2_box_inner,
+  #top_jukenhyou table tr:first-of-type td:nth-of-type(2){
     width: 100%;
   }
   .course2_box_inner:nth-of-type(2){
@@ -1439,7 +1449,12 @@ text-align:center;margin:0 auto;}
         padding-right: 0;
         float: left;
         clear: both;
-    }  
+    }
+  #top_jukenhyou table tr:first-of-type td:first-of-type,
+  #top_jukenhyou table tr:first-of-type td:last-of-type,
+  #top_jukenhyou table.jukenhyou_2 tr:first-of-type td:last-of-type{
+    width: 100%;
+  }
 }
 @media screen and (max-width: 480px){
   #ado .ado_main.ado_main_study{
