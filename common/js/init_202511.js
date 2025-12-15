@@ -64,7 +64,7 @@ var recipe_list = function(){
 var incude_fla = function(){
 	
 	/* ヘッダー読み込み */
-  $("#header_incbox").load("/include/header_202511.inc", function() {
+  $("#header_incbox").load("/include/header.inc", function() {
   
 /* sp レシポンシブbtn start */
 $(function($){
@@ -100,8 +100,8 @@ $(function(){
 	});
   
   
-  $("#footer_incbox").load("/include/footer_202511.inc");
-  $("#side_incbox").load("/include/side_202511.inc");
+  $("#footer_incbox").load("/include/footer_20251204.inc");
+  $("#side_incbox").load("/include/side.inc");
 }
 
   function links(){
