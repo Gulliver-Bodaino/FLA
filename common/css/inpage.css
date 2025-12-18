@@ -1051,11 +1051,12 @@ text-align:center;margin:0 auto;}
 	background:#E27DA1;
 }
 .btm_licens p:nth-child(2){
-	background:#A862AF ;
+	background:#419E6F ;
 }
 .btm_licens p:nth-child(3){
-	background:#406800 ;
+	background:#A862AF ;
 }
+
 .btm_licens p.purple{
 	background:#A862AF ;
 }
@@ -1196,14 +1197,9 @@ text-align:center;margin:0 auto;}
   border:1px solid #979CB7;
   border-style:solid none;
 }
-
 #top_jukenhyou table.jukenhyou_2 tr:first-of-type td:last-of-type{
-  width: 260px;
-
+  width: 262px;
 }
-
-
-
 .main_table.table_2 tr.data_end:hover *{
   background: #C3C6D5;
 }
@@ -1331,6 +1327,9 @@ text-align:center;margin:0 auto;}
   .ado_h2{
     left: 0;
     width: 70%;
+  }
+    .btm_licens p{
+    width:25%;
   }
 }
 
