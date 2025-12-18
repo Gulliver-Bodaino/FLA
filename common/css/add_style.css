@@ -141,7 +141,7 @@
 }
 .tape_1::after{
 	color:#705E00;
-	content:'申込期間外';
+	content:'申込期間受付中';
 }
 .tape_2::after{
 	color:#5B8615;
