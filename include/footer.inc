@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
   <div id="footer">
     <div id="footer_contents">
       <div id="footer_title" class="cb">
@@ -26,7 +19,7 @@
           <dd><a href="/pdf/20251125_preparation.pdf">1級郵便局、ゆうちょ銀行申込</a></dd>
           <dd><a href="/pdf/20251125_preparation.pdf">1級クレジットカード申込</a></dd>
 
-          <dt><a href="/pass/">合格講座</a></dt>
+          <dt><a href="/pdf/20251125_preparation.pdf">合格講座</a></dt>
 
           <dt><a href="/shoseki/">書籍紹介</a></dt>
 

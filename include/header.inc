@@ -34,7 +34,8 @@
         -->
         </ul>
       </li>
-      <li class="navi07"><a class="color_change" href="/pass/">合格講座</a></li>
+      <!--li class="navi07"><a class="color_change" href="/pass/">合格講座</a></li-->
+      <li class="navi07"><a class="color_change" href="/pdf/20251125_preparation.pdf">合格講座</a></li>
       <li class="navi05"><a href="/shoseki/" class="color_change">書籍紹介/問題集</a>
         <ul class="navi_dropdown">
           <li><a href="/shoseki/">書籍紹介</a></li>
@@ -49,7 +50,8 @@
     <ul id="sp_navi">
       <li class="navi01"><a href="/">TOPページ</a></li>
       <li class="navi02"><a href="/juken/">個人受験案内</a></li>
-      <li class="navi07"><a href="/pass/">合格講座</a></li>
+      <!--li class="navi07"><a href="/pass/">合格講座</a></li-->
+      <li class="navi07"><a href="/pdf/20251125_preparation.pdf">合格講座</a></li>
       <li class="navi05"><a href="/shoseki/">書籍案内/問題集</a></li>
       <li class="navi03"><a href="/dantai/">団体受験案内</a></li>
       <li class="navi04"><a href="https://shoku-ad.jp/club2022/academy/">会員制度</a></li>

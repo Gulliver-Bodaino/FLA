@@ -12,7 +12,7 @@
 	'jquery.js', 
 	'jQueryAutoHeight.js',
 	'jquery.rwdImageMaps.min.js',
-	'init_202511.js',
+	'init_202512.js',
 	'scroll.js'
 );
 
