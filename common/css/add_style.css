@@ -141,11 +141,11 @@
 }
 .tape_1::after{
 	color:#705E00;
-	content:'申込期間受付中';
+	content:'申込み受付中';
 }
 .tape_2::after{
 	color:#5B8615;
-	content:'申込受付中';
+	content:'申込み受付中';
 }
 .tape_1::after{
 	background:#F8FCAD;
@@ -236,7 +236,7 @@
 
 
 .top_event_imgbox_2 p{
-  position: relative; /* 配置（基準） */
+  position: relative;
 	width:448px;
 	height:256px;
 	margin:32px 0;
@@ -247,10 +247,10 @@
 }
 .top_event_imgbox_2 p::before
 {
-	content: ''; /* 擬似要素の内容なし */
-	position: absolute; /* 配置（位置指定）*/
-	width: 90%; /* カッコの幅 */
-	height: 85%; /* カッコの高さ */
+	content: '';
+	position: absolute;
+	width: 90%;
+	height: 85%;
 }
 .top_event_imgbox_2 p:nth-of-type(1):before{
 	border:5px double #DAC656;
