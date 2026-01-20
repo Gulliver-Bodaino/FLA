@@ -358,6 +358,7 @@ sub{top:.5ex;}
 #juken .kouza_main .main_table{font-size:14px;margin-bottom:5px;}
 #juken .kouza_main .main_table th{width: auto;padding:8px;}
 #juken .kouza_main .main_table th:first-of-type{width:60px;}
+#juken .kouza_main .main_table th:nth-of-type(2){width:120px;}
 
 #juken .kouza_main .main_table td{padding:8px 16px;}
 #juken .kouza_main .half_w .main_table th{text-align:center;padding:10px 20px;width:40%;}
@@ -1236,6 +1237,43 @@ text-align:center;margin:0 auto;}
 }
 
 
+.kouza_2q_1day_2day{
+  position: relative;
+  width: 320px;
+  height: 240px;
+  margin: auto;
+}
+.kouza_2q_1day_2day img{
+  position: absolute;
+  width: 160px;
+  height: auto;
+  border:1px solid darkgrey
+}
+.kouza_2q_1day_2day img:nth-of-type(1){
+  left: 16px;
+  transform: rotate(-10deg);
+  z-index: 10;
+}
+.kouza_2q_1day_2day img:nth-of-type(2){
+  right: 16px;
+  transform: rotate(10deg);
+}
+.kouza_2q_55{
+  width: 320px;
+  height: 240px;
+  margin: auto;
+}
+.kouza_2q_55 img{
+  width: 160px;
+  height: auto;
+  border:1px solid darkgrey;
+}
+.kouza_3q_img{
+  width: 240px;
+  height: auto;
+  border: 1px solid darkgrey;
+}
+
 
 
 
@@ -1328,8 +1366,12 @@ text-align:center;margin:0 auto;}
     left: 0;
     width: 70%;
   }
-    .btm_licens p{
+  .btm_licens p{
     width:25%;
+  }
+
+  .btm_licens p.sm_120p{
+    width: 120px;
   }
 }
 
