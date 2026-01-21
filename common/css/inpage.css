@@ -1062,6 +1062,15 @@ text-align:center;margin:0 auto;}
 	background:#A862AF ;
 }
 
+.btm_licens p.n1{
+	background:#527BC1;
+}
+.btm_licens p.n2{
+	background:#3561AB;
+}
+
+
+
 .btm_licens .circle{
 	width:64px;
 	height:32px;
@@ -1476,8 +1485,8 @@ text-align:center;margin:0 auto;}
     width: 100%;
   }
   .course2_box_inner:nth-of-type(2){
+    margin-top: 80px;
     border-top: 2px solid #ff6b00;
-
   }
  .copy.ado_h2{
   font-size: 18px;
@@ -1496,6 +1505,19 @@ text-align:center;margin:0 auto;}
   #top_jukenhyou table.jukenhyou_2 tr:first-of-type td:last-of-type{
     width: 100%;
   }
+
+  /* 特定の table のみ flex 化 */
+  .schedule tr {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .schedule tr > * {
+      white-space: nowrap;
+  }
+  .schedule tr .sm_1{order: 1;}
+  .schedule tr .sm_2{order: 2;}
+  .schedule tr .sm_3{order: 3;}
+  .schedule tr .sm_4{order: 4;}
 }
 @media screen and (max-width: 480px){
   #ado .ado_main.ado_main_study{
