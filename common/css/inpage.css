@@ -1063,11 +1063,19 @@ text-align:center;margin:0 auto;}
 }
 
 .btm_licens p.n1{
-	background:#527BC1;
+	background:#66CCFF;
+}
+.btm_licens p.n1 a{
+	color:#333;
 }
 .btm_licens p.n2{
-	background:#3561AB;
+	background:#305A80;
 }
+.btm_licens p.n1 a:hover,
+.btm_licens p.n2 a:hover{
+  text-decoration: none;
+}
+
 
 
 
@@ -1283,6 +1291,67 @@ text-align:center;margin:0 auto;}
   border: 1px solid darkgrey;
 }
 
+.pass_rate_box{
+  width: 640px;
+  color:#333
+}
+.pass_rate_box h4{
+  margin:0 0 8px;
+  font-size: 18px;
+}
+.pass_rate_box_inner{
+  display: flex;
+  width: 540px;
+  margin:16px 0;
+  overflow: hidden;
+}
+.pass_rate_box_inner p{
+  margin: 0;
+  font-weight: bold;
+}
+.pass_rate_box_inner p:nth-of-type(1){
+  margin-right:8px;
+}
+.pass_rate_box_inner p span{
+  padding:0 8px;
+}
+
+.pass_rate_box_inner:nth-of-type(1) .pass_rate{
+  height: 24px;
+  background: #00c99d;
+  width: 0;
+  animation: grow 1s forwards;
+}
+.pass_rate_box_inner:nth-of-type(2) p{
+  color:#fe9402;
+}
+.pass_rate_box_inner:nth-of-type(2) .pass_rate{
+  height: 24px;
+  background: #fe9402;
+  width: 0;
+  animation: grow 1s forwards;
+}
+.pass_rate_box_inner:nth-of-type(2) .pass_rate span{
+  color:#333;
+}
+
+.pass_rate_box.w320p,
+.pass_rate_box.w320p .pass_rate_box_inner{
+  width:320px;
+}
+.pass_rate_box.w320p .pass_rate_box_inner p{
+  width: 30%;
+}
+.pass_rate_box.w320p .pass_rate_box_inner div{
+  width: 70%;
+}
+
+
+
+@keyframes grow {
+  from { width: 0; }
+  to   { width: var(--target); }
+}
 
 
 
@@ -1364,6 +1433,10 @@ text-align:center;margin:0 auto;}
   .main_table.table_2 tr.data_end td{
     border-top:none;
     border-bottom:1px solid #979CB7 !important;
+  }
+  .pass_rate_box{
+    width: 480px;
+    margin: 32px auto;
   }
 
 }
@@ -1514,6 +1587,13 @@ text-align:center;margin:0 auto;}
   .schedule tr > * {
       white-space: nowrap;
   }
+  .pass_rate_box_inner{
+    flex-wrap: wrap;
+  }
+  .pass_rate_box.w320p .pass_rate_box_inner p,
+  .pass_rate_box.w320p .pass_rate_box_inner div{
+    width: 100%;
+  }
   .schedule tr .sm_1{order: 1;}
   .schedule tr .sm_2{order: 2;}
   .schedule tr .sm_3{order: 3;}
@@ -1540,6 +1620,17 @@ text-align:center;margin:0 auto;}
     width: 72px;
     height: 72px;
     font-size: 13px;
+  }
+  .pass_rate_box{
+    width: 95%;
+  }
+  .pass_rate_box_inner{
+    flex-wrap: wrap;
+    width: 95%;
+
+  }
+  .pass_rate_box_inner p:nth-of-type(1){
+    width: 100%;
   }
 }
 
