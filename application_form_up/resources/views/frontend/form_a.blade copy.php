@@ -319,11 +319,11 @@
       <!--box start-->
       @if (count($setting->workbook_list) > 0)
       <article id="subject" class="box">
-        <h2 class="application_form_tit">『対策問題集』ご購入のお申し込み</h2>
+        <h2 class="application_form_tit">『科目別 過去問題集』ご購入のお申し込み</h2>
         <div class="application_form_cont"> 
           <!--selection_box start-->
           <div class="selection_box">
-            <h3 class="selection_box_tit">対策問題集 購入申込</h3>
+            <h3 class="selection_box_tit">科目別 過去問題集 購入申込</h3>
             <!--selection_list_box start-->
             <div class="selection_list_box">
               <ul class="selection_list layout_box3">
@@ -338,7 +338,7 @@
               </ul>
             </div>
             <!--selection_box start-->
-            <p class="align_c txt16"><a href="http://www.flanet.jp/shoseki/past.html" target="_blank">『対策問題集』について</a></p>
+            <p class="align_c txt16"><a href="http://www.flanet.jp/shoseki/past.html" target="_blank">『科目別 過去問題集』について</a></p>
             <div class="subtotal_box">小計：<span class="subtotal_box_price"><span id="subtotal2">{{ number_format($subtotal2) }}</span>円</span></div>
           </div>
           <!--selection_box start--> 
