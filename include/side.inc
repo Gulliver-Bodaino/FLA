@@ -10,8 +10,8 @@
 
 <!--li id="side_banner25"><a href="https://flanet.jp/kobetsu/" target="_blank"><img src="/img/side_banner25.gif" alt="個人受験申込方法について" class="btnover" /></a></li-->
 
-<!--li id="side_banner01"><a href="/pdf/20251006_moushikomi.pdf" target="_blank"><img src="../img/side_banner01.gif" alt="願書請求フォーム" class="btnover" /></a></li-->
-<!--li id="side_banner01"><a href="https://flanet.jp/application_form/form_b" target="_blank"><img src="/img/side_banner01.gif" alt="願書請求フォーム" class="btnover" /></a></li-->
+<!--li id="side_banner01"><a href="/pdf/20251006_moushikomi.pdf" target="_blank"><img src="../img/side_banner01.gif" alt="専用の払込取扱票請求フォーム" class="btnover" /></a></li-->
+<!--li id="side_banner01"><a href="https://flanet.jp/application_form/form_b" target="_blank"><img src="/img/side_banner01.gif" alt="専用の払込取扱票請求フォーム" class="btnover" /></a></li-->
 
 <!--li id="side_banner02"><a href="https://flanet.jp/application_form/form_a" target="_blank"><img src="/img/side_banner02.gif" alt="受験申込フォーム" class="btnover" /></a></li-->
 <!--li id="side_banner02"><a href="/pdf/kentei20241225c.pdf" target="_blank"><img src="/img/side_banner02.gif" alt="受験申込フォーム" class="btnover" /></a></li-->
@@ -42,7 +42,7 @@
 <li id="side_banner17"><a href="https://www.hj.sanno.ac.jp/cp/distance-learning/search/?kw=%E9%A3%9F%E7%94%9F%E6%B4%BB%E3%82%A2%E3%83%89%E3%83%90%E3%82%A4%E3%82%B6%E3%83%BC" target="_blank"><img src="/img/side_banner16.gif" alt="産能大通信講座" class="btnover" /></a></li>
 <li id="side_banner07"><a href="/pass/index.html"><img src="/img/side_banner07.jpg" alt="合格を目指して集中的に学習しよう 合格講座" class="btnover" /></a></li>
 <li><a href="/shoseki/"><img src="/img/side_banner09.gif" alt="書籍紹介" class="btnover" /></a></li>
-<li id="side_banner21"><a href="/shoseki/past.html#moushikomi"><img src="/img/side_banner21.jpg" alt="過去問題集" class="btnover" /></a></li>
+<li id="side_banner21"><a href="/shoseki/past.html#moushikomi"><img src="/img/side_banner21.jpg" alt="対策問題集" class="btnover" /></a></li>
 <li id="side_banner22"><a href="/ado/"><img src="/img/side_banner22.jpg" alt="食生活アドバイザー®とは" class="btnover" /></a></li>
 <li id="side_banner05"><a href="/gansho/"><img src="/img/side_banner05.jpg" alt="受験までの流れをチェック 願書請求について" class="btnover" /></a></li>
 <li id="side_banner18" class="m_b10"><a href="/gokaku/"><img src="/img/side_banner11.jpg" alt="合格者の声 　S.Hさん／S.Sさん" class="btnover" /></a></li>

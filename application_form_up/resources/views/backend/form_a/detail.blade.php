@@ -34,7 +34,7 @@
                     <div class="form-group row">
                         <label class="col-lg-2">ご質問</label>
                         <div class="col-lg-10">
-                            過去に食生活アドバイザーの願書請求をしたことがありますか？<br>
+                            過去に食生活アドバイザーの専用の払込取扱票請求をしたことがありますか？<br>
                             {{ $application->answer1 }}<br>
                             <br>
                             過去に食生活アドバイザーの受験をしたことがありますか？<br>
@@ -116,7 +116,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-lg-2">科目別 過去問題集</label>
+                        <label class="col-lg-2">科目別 対策問題集</label>
                         <div class="col-lg-10">
                         @if ($application->workbook_id)
                             {{ $application->workbook_name }}<br>

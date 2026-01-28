@@ -270,7 +270,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">科目別 過去問題集</label>
+                        <label class="col-sm-2 col-form-label">科目別 対策問題集</label>
                         <div class="col-sm-10">
                             <table id="workbook_list" class="table table-striped mb-3">
                                 <thead class="bg-gray">
@@ -600,7 +600,7 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header bg-navy">
-                <h5 class="modal-title">科目別 過去問題集</h5>
+                <h5 class="modal-title">科目別 対策問題集</h5>
             </div>
             <div class="modal-body">
                 <div class="alert alert-danger alert-dismissible" style="display: none;">

@@ -50,7 +50,7 @@
                 <th>ご質問<span class="hissu">（必須）</span></th>
                 <td>
                   <dl class="form_in_box">
-                    <dt>過去に食生活アドバイザーの願書請求をしたことがありますか？</dt>
+                    <dt>過去に食生活アドバイザーの専用の払込取扱票請求をしたことがありますか？</dt>
                     <dd>
                       {{ array_flip(config('common.answer'))[request('q1')] ?? '' }}
                     </dd>
@@ -204,7 +204,7 @@
               @endforeach
               @endif
               </ul>
-              <p class="align_c txt16 other_link"><a href="http://www.flanet.jp/pass/education.html" target="_blank">合格講座─『通学コース』について</a></p>
+              <p class="align_c txt16 other_link"><a href="http://www.flanet.jp/pass/" target="_blank">合格講座─『通学コース』について</a></p>
             </div>
             <!--selection_list_box end--> 
           </div>

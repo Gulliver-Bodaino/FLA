@@ -27,7 +27,7 @@
 
       <h1 class="application_form_main_title">
         @if (Route::is('form_a.send_complete'))クレジットカード支払い希望者の『申込フォーム』@endif
-        @if (Route::is('form_b.send_complete'))願書請求フォーム<br>（郵便局、ゆうちょ銀行の払込取扱票によるお支払い）@endif
+        @if (Route::is('form_b.send_complete'))専用の払込取扱票フォーム<br>（郵便局、ゆうちょ銀行の払込取扱票によるお支払い）@endif
         @if (Route::is('form_c.send_complete'))会員関連・イベント関連の申込フォーム@endif
       </h1>
       <!--box start-->
