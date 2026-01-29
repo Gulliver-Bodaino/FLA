@@ -81,7 +81,7 @@
 #main_kobetsu .kobetsu_area .application_cell { max-width: 680px; margin: 0 auto; border: 2px solid #ff3ca8; padding: 25px 20px 25px; border-radius: 10px;}
 #main_kobetsu .kobetsu_area .application_cell p { font-size: 0.9rem; font-weight: bold; text-align: center; margin: 0px auto 0px;}
 #main_kobetsu .kobetsu_area .application_cell p span { color: #ff3ca8;}
-#main_kobetsu .kobetsu_area a.kobetsu_btn { display: flex; justify-content: center; align-items: center; width: 260px; height: 50px; background: #fff0f8; border-radius: 25px; line-height: 1; text-align: center; font-size: 1.1rem; font-weight: bold; position: relative;}
+#main_kobetsu .kobetsu_area a.kobetsu_btn { display: flex; justify-content: center; align-items: center; width: 320px; height: 50px; background: #fff0f8; border-radius: 25px; line-height: 1; text-align: center; font-size: 1.1rem; font-weight: bold; position: relative;}
 #main_kobetsu .kobetsu_area a.kobetsu_btn::after { display: block; content: ""; position: absolute; top: 50%; right: 20px; transform: translateY(-50%); -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); background: url(../../kobetsu/img/icon_arrow.png) no-repeat; width: 7px; height: 12px;}
 #main_kobetsu .kobetsu_area .application_cell a.kobetsu_btn { margin: 20px auto 0;}
 #main_kobetsu .kobetsu_area .list_link { display: flex;}
@@ -111,7 +111,7 @@
 	#main_kobetsu .kobetsu_area .list_kobetsu li .list_kobetsu_txt p.attention { font-size: 10px; margin: 0 0 0px 0px; padding: 0 0 0 1em;}
 	#main_kobetsu .kobetsu_area .application_cell { max-width: 680px; margin: 0 auto; border: 2px solid #ff3ca8; padding: 25px 10px 25px; border-radius: 10px;}
 	#main_kobetsu .kobetsu_area .application_cell p { font-size: 0.9rem; font-weight: bold; text-align: center; margin: 0px auto 0px;}
-	#main_kobetsu .kobetsu_area a.kobetsu_btn { display: flex; justify-content: center; align-items: center; width: 220px; height: 40px; background: #fff0f8; border-radius: 20px; line-height: 1; text-align: center; font-size: 13px;}
+	#main_kobetsu .kobetsu_area a.kobetsu_btn { display: flex; justify-content: center; align-items: center; width: 240px; height: 40px; background: #fff0f8; border-radius: 20px; line-height: 1; text-align: center; font-size: 13px;}
 	#main_kobetsu .kobetsu_area a.kobetsu_btn::after { display: block; content: ""; position: absolute; top: 50%; right: 20px; transform: translateY(-50%); -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); background: url(../../kobetsu/img/icon_arrow.png) no-repeat; width: 7px; height: 12px;}
 	#main_kobetsu .kobetsu_area .application_cell a.kobetsu_btn { margin: 20px auto 0;}
 	#main_kobetsu .kobetsu_area .list_link { display: flex; flex-direction: column;}

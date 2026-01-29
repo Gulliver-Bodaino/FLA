@@ -69,11 +69,7 @@ a img { border: 0; }
 
 .m_t8b0{margin: 8px 0 0;}
 
-.shadow{
-	box-shadow: 4px 4px 4px darkgray;
-}
-
-
+.shadow{box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);}
 
 /*	photo 
 -----------------------------------------------------------------------------*/
@@ -92,7 +88,8 @@ a img { border: 0; }
 /*	color
 -----------------------------------------------------------------------------*/
 .c_fff { color: #fff; }
-.red { color: #cb1f28; }
+.red{ color: #cb1f28; }
+tr.red td{font-weight:500; color: #cb1f28 !important;}
 .yellow { color: #e8a604; }
 .orange { color: #ff6b00; }
 .orange2 { color: #ff9232; }
@@ -124,6 +121,7 @@ a img { border: 0; }
 .w320p img,
 .w100{width:100%;}
 .w120p{width:120px;}
+.w160p{width:160px;}
 .w320p{width:320px;}
 
 
