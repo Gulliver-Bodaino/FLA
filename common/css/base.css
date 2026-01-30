@@ -281,6 +281,31 @@ display:-ms-flexbox;
 .layout_box2.flex_center > *:nth-child(2n){margin-right:0 !important;}
 .layout_box2.flex_center > *:nth-child(2n+1){margin-left:0 !important;}
 
+.ul_li_1 {
+  margin: 1em 0;
+  padding-left: 0.4em;
+  list-style: none;
+}
+
+.ul_li_1 li {
+  position: relative;
+  margin: 1em 0;
+  padding-left: 0.8em;
+  line-height: 1.6;
+}
+
+.ul_li_1 li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  background: #666;
+  border-radius: 50%;
+}
+
+
 @media only screen and (max-width :768px) {
 	.layout6 > *{width:50%;}
 	.layout5 > *{width:50%;}
