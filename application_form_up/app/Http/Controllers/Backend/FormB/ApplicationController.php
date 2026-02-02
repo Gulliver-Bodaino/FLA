@@ -156,7 +156,7 @@ class ApplicationController extends Controller
             'created_at|substr($value, 0, 10)' => '申込日',
             'created_at|substr($value, 11, 8)' => '申込時間',
             'status|array_flip(config("common.status"))[$value] ?? ""' => 'ステータス',
-            'q1|array_flip(config("common.answer"))[$value] ?? ""' => '過去に食生活アドバイザーの願書請求をしたことがありますか？',
+            'q1|array_flip(config("common.answer"))[$value] ?? ""' => '過去に食生活アドバイザーの専用の払込取扱票請求をしたことがありますか？',
             'q2|array_flip(config("common.answer"))[$value] ?? ""' => '過去に食生活アドバイザーの受験をしたことがありますか？',
             'sei' => '氏名（姓）',
             'mei' => '氏名（名）',

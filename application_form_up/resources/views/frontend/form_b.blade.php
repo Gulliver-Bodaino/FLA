@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=1, user-scalable=0" />
 <meta name="description" content="食の資格、食生活アドバイザー｜FLAネットワーク協会" />
 <meta name="keywords" content="食,資格" />
-<title>願書請求フォーム（郵便局、ゆうちょ銀行の払込取扱票によるお支払い）｜食の資格、食生活アドバイザー®｜FLAネットワーク協会</title>
+<title>専用の払込取扱票請求フォーム（郵便局、ゆうちょ銀行の払込取扱票によるお支払い）｜食の資格、食生活アドバイザー®｜FLAネットワーク協会</title>
 <link rel="stylesheet" type="text/css" href="{{ asset('common/css/import.css') }}" media="all" />
 <script type="text/javascript" src="{{ asset('common/js/common.js') }}" charset="utf-8"></script>
 </head>
@@ -26,10 +26,10 @@
     <form id="application_form" action="{{ route('form_b.confirm') }}" method="POST">
       @method('POST')
       @csrf
-      <h1 class="application_form_main_title">願書請求フォーム<br>（郵便局、ゆうちょ銀行の払込取扱票によるお支払い）</h1>
+      <h1 class="application_form_main_title">専用の払込取扱票請求フォーム<br>（郵便局、ゆうちょ銀行の払込取扱票によるお支払い）</h1>
       <!--box start-->
       <article id="person" class="box">
-        <h2 class="application_form_tit">受験・合格講座・過去問題集申込フォーム</h2>
+        <h2 class="application_form_tit">受験・合格講座・対策問題集申込フォーム</h2>
         <div class="application_form_cont m_b40">
           <h3 class="selection_box_tit">個人情報入力<span class="hissu">(必須)</span></h3>
           @if ($errors->any())<div class="error_box">入力エラーがあります。</div>@endif
@@ -39,7 +39,7 @@
                 <th>ご質問<span class="hissu">（必須）</span></th>
                 <td>
                   <dl class="form_in_box">
-                    <dt>過去に食生活アドバイザーの願書請求をしたことがありますか？</dt>
+                    <dt>過去に食生活アドバイザーの専用の払込取扱票請求をしたことがありますか？</dt>
                     <dd>
                       <lable><input type="radio" name="q1" value="1"@if(old('q1', '') == '1') checked @endif>はい</lable>
                       <lable><input type="radio" name="q1" value="0"@if(old('q1', '') == '0') checked @endif>いいえ</lable>

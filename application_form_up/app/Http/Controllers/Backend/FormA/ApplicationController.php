@@ -178,7 +178,7 @@ class ApplicationController extends Controller
             'created_at|substr($value, 11, 8)' => '申込時間',
             'status|array_flip(config("common.status"))[$value] ?? ""' => 'ステータス',
             'tracking_id' => 'トラッキングID',
-            'q1|array_flip(config("common.answer"))[$value] ?? ""' => '過去に食生活アドバイザーの願書請求をしたことがありますか？',
+            'q1|array_flip(config("common.answer"))[$value] ?? ""' => '過去に食生活アドバイザーの専用の払込取扱票請求をしたことがありますか？',
             'q2|array_flip(config("common.answer"))[$value] ?? ""' => '過去に食生活アドバイザーの受験をしたことがありますか？',
             'sei' => '氏名（姓）',
             'mei' => '氏名（名）',
@@ -210,7 +210,7 @@ class ApplicationController extends Controller
             'fast_course_name' => '講座',
             'fast_code' => '速習コースコード',
             'fast_venue|$this->fastVenueList($value)' => '受講会場',
-            'workbook_name' => '科目別 過去問題集',
+            'workbook_name' => '科目別 対策問題集',
             'total' => 'お支払い合計',
         ];
 
