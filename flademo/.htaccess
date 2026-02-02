@@ -1,5 +1,0 @@
-AuthType Basic
-AuthName "flatest"
-AuthUserFile /home/vuser09/1/0/0085801/www.flanet.jp/flademo/.htpasswd
-Require valid-user
-#= 115b4054deba709e2bd11e4f17914c1d

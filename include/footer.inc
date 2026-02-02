@@ -14,12 +14,12 @@
           <dt><a href="/ado/">食生活アドバイザー®とは</a></dt>
 
           <dt><a href="/juken/">個人受験</a></dt>
-          <dd><a href="/pdf/20251125_preparation.pdf">3・2級郵便局、ゆうちょ銀行申込</a></dd>
-          <dd><a href="/pdf/20251125_preparation.pdf">3級・2級クレジットカード申込</a></dd>
+          <dd><a href="https://flanet.jp/application_form/form_b">3・2級郵便局、ゆうちょ銀行申込</a></dd>
+          <dd><a href="https://flanet.jp/application_form/form_a">3級・2級クレジットカード申込</a></dd>
           <dd><a href="/pdf/20251125_preparation.pdf">1級郵便局、ゆうちょ銀行申込</a></dd>
           <dd><a href="/pdf/20251125_preparation.pdf">1級クレジットカード申込</a></dd>
 
-          <dt><a href="/pdf/20251125_preparation.pdf">合格講座</a></dt>
+          <dt><a href="/pass/">合格講座</a></dt>
 
           <dt><a href="/shoseki/">書籍紹介</a></dt>
 
