@@ -139,20 +139,42 @@
 	font-size: 16px;
 	opacity:1;
 }
-.tape_1::after{
+
+.tape_1 span,
+.tape_2 span{
+	position: absolute;
+	top:0;
+  left:25%;
+  transform:translateX(-25%);
+	width:50%;
+	height:48px;
+	margin:-25px auto 0;
+	transform:rotate(-4deg);
+  box-shadow:0 0 5px rgba(0,0,0,.2);	
+	font-size: 16px;
+	opacity:1;
+}
+.tape_1 span{
 	color:#705E00;
-	content:'申込み受付中';
 }
-.tape_2::after{
+.tape_2 span{
 	color:#5B8615;
-	content:'申込み受付中';
 }
-.tape_1::after{
+.tape_1 span{
 	background:#F8FCAD;
 }
-.tape_2::after{
+.tape_2 span{
 	background:#C5EB88;
 }
+
+
+
+
+
+
+
+
+
 
 .top_event_imgbox_1{
 	margin: 32px auto 48px;
@@ -281,21 +303,6 @@
 	width:25%;
 	fill:#406800;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .juken_moushikomi_box_1{
 	background: #FDE6EE;
@@ -437,8 +444,6 @@
 	display: none;
 }
 
-
-
 @media (max-width: 800px){
 
 	.none_w800{
@@ -475,8 +480,6 @@
 	.top_event_imgbox_1 p.top_caution_btn a{
 		font-size:14px;
 	}
-	
-
 
 	.juken_moushikomi_box_1_inner a{width:48%;}
 	.juken_moushikomi_box{width:98%;}
@@ -506,7 +509,6 @@
 		font-size: 14px;
 		text-align: center;
 	}
-
 
 }
 

@@ -631,12 +631,6 @@ text-align:center;margin:0 auto;}
   z-index: 100;
 }
 
-
-
-
-
-
-
 /* ado/field */
 #ado_field #field_page_title{color:#fff;margin-bottom:40px;padding:40px 200px 40px 40px;background:url(../../ado/img/field_main_tit.gif) no-repeat 95% 50%, url(../../img/bg_stripe.gif) 0 0}
 #ado_field #field_page_title h2{font-size:28px;font-weight:bold;line-height:1.2;text-align:left;}
@@ -738,10 +732,18 @@ text-align:center;margin:0 auto;}
   background-color: #cb1f28;
 }
 
-
-
-
-
+a.link_v1{
+  color: #444;
+  font-weight: normal;
+  border-bottom: 1px solid #666;
+  padding: 0 2px;
+  transition: 0.2s ease;
+  text-decoration: none !important;
+}
+a.link_v1:hover {
+  color: #888; 
+  border-bottom-color: #999;
+}
 
 /* qa-----------------------------------------------------------------------------*/
 #qa #qa_page_title{padding-top:60px;}
