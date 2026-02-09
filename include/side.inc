@@ -8,7 +8,7 @@
 
 <!--個人受験-->
 
-<!--li id="side_banner25"><a href="https://flanet.jp/kobetsu/" target="_blank"><img src="/img/side_banner25.gif" alt="個人受験申込方法について" class="btnover" /></a></li-->
+<!--li id="side_banner25"><a href="https://flanet.jp/kobetsu/" target="_blank"><img src="/img/side_banner25.gif" alt="個人受験申込み方法について" class="btnover" /></a></li-->
 
 <!--li id="side_banner01"><a href="/pdf/20251006_moushikomi.pdf" target="_blank"><img src="../img/side_banner01.gif" alt="専用の払込取扱票請求フォーム" class="btnover" /></a></li-->
 <!--li id="side_banner01"><a href="https://flanet.jp/application_form/form_b" target="_blank"><img src="/img/side_banner01.gif" alt="専用の払込取扱票請求フォーム" class="btnover" /></a></li-->
@@ -44,7 +44,7 @@
 <li><a href="/shoseki/"><img src="/img/side_banner09.gif" alt="書籍紹介" class="btnover" /></a></li>
 <li id="side_banner21"><a href="/shoseki/past.html#moushikomi"><img src="/img/side_banner21.jpg" alt="対策問題集" class="btnover" /></a></li>
 <li id="side_banner22"><a href="/ado/"><img src="/img/side_banner22.jpg" alt="食生活アドバイザー®とは" class="btnover" /></a></li>
-<li id="side_banner05"><a href="/gansho/"><img src="/img/side_banner05.jpg" alt="受験までの流れをチェック 願書請求について" class="btnover" /></a></li>
+<!--li id="side_banner05"><a href="/gansho/"><img src="/img/side_banner05.jpg" alt="受験までの流れをチェック 願書請求について" class="btnover" /></a></li-->
 <li id="side_banner18" class="m_b10"><a href="/gokaku/"><img src="/img/side_banner11.jpg" alt="合格者の声 　S.Hさん／S.Sさん" class="btnover" /></a></li>
 <li id="side_banner09" class="m_b25"><a href="/gokaku/index2.html"><img src="/img/side_banner12.jpg" alt="合格者の声 　H.Aさん／M.Aさん" class="btnover" /></a></li>
 <li class="m_b10" id="syoseki_banner">
