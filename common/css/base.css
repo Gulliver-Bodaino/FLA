@@ -304,6 +304,9 @@ display:-ms-flexbox;
   background: #666;
   border-radius: 50%;
 }
+.under{
+	text-decoration: underline;
+}
 
 
 @media only screen and (max-width :768px) {
