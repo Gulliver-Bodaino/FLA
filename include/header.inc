@@ -43,7 +43,8 @@
         </ul>
       </li>
       <li class="navi03"><a class="color_change" href="/dantai/">団体受験案内</a></li>
-      <li class="navi04"><a class="color_change" href="https://shoku-ad.jp/club2022/academy/">会員制度</a></li> 
+      <li class="navi04"><a target="_blank" class="color_change" href="https://shoku-ad.jp/member/">会員制度</a></li>
+      <!-- 20260323 リンク先変更 li class="navi04"><a class="color_change" href="https://shoku-ad.jp/club2022/academy/">会員制度</a></li-->
       <li class="navi06"><a href="/qa/">Q&amp;A</a></li>
     </ul>
 
@@ -54,7 +55,7 @@
       <!--li class="navi07"><a href="/pdf/20251125_preparation.pdf">合格講座</a></li-->
       <li class="navi05"><a href="/shoseki/">書籍案内/問題集</a></li>
       <li class="navi03"><a href="/dantai/">団体受験案内</a></li>
-      <li class="navi04"><a href="https://shoku-ad.jp/club2022/academy/">会員制度</a></li>
+      <li class="navi04"><a target="_blank" href="https://shoku-ad.jp/member/">会員制度</a></li>
       <li class="navi06"><a href="/qa/">Q&amp;A</a></li>
     </ul>
     <ul id="header_link">
