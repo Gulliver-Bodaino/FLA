@@ -95,11 +95,8 @@ $(function(){
 });
 /* sp スマホtel end */
 
-
-
 	});
-  
-  
+    
   $("#footer_incbox").load("/include/footer.inc");
   $("#side_incbox").load("/include/side.inc");
 }
@@ -116,7 +113,6 @@ $(function(){
       $(".link_btn").mhover();
       $(".js_hvr-btn").mhover();
       $(".js_hvr-btn_wrp > *").mhover();
-
 
       $('.imgline_wrp .layout_line li').hover(
         function(){
