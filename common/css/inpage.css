@@ -1213,17 +1213,14 @@ a.link_v1:hover {
 #top_jukenhyou table tr.data_end td,
 #top_jukenhyou table tr.data_end td:nth-of-type(2),
 .main_table.table_2 tr.data_end *{
-  background: #C3C6D5;
-  border:1px solid #979CB7;
+  background: #f2f2f2;
+  color:#888;
+  border:1px solid #ddd;
   border-style:solid none;
 }
 #top_jukenhyou table.jukenhyou_2 tr:first-of-type td:last-of-type{
   width: 262px;
 }
-.main_table.table_2 tr.data_end:hover *{
-  background: #C3C6D5;
-}
-
 .top_note{
   width: 99%;
   margin: 16px auto 8px;
@@ -1234,7 +1231,6 @@ a.link_v1:hover {
   font-size: 32px;
   font-weight: bold;
 }
-
 .course2_box{
   position: relative;
   display: flex;
@@ -1249,13 +1245,9 @@ a.link_v1:hover {
   border-left:2px dashed #B5F0A9;
 
 }
-
-
 .course2_box_inner{
   width: 48%;
 }
-
-
 .kouza_2q_1day_2day{
   position: relative;
   width: 320px;
@@ -1347,16 +1339,13 @@ a.link_v1:hover {
 .pass_rate_box.w320p .pass_rate_box_inner div{
   width: 70%;
 }
-
-
-
+.pointer_none{
+  pointer-events: none;
+}
 @keyframes grow {
   from { width: 0; }
   to   { width: var(--target); }
 }
-
-
-
 @media (max-width: 800px){
   #top_jukenhyou{
     width:98%;
@@ -1398,9 +1387,6 @@ a.link_v1:hover {
   .main_table.table_2 tr:nth-child(even) *{
     background: #FFF8E5;
   }
-  .main_table.table_2 tr.data_end *{
-    background: #C3C6D5; 
-  }
   .main_table.table_2 tr.shiken *{
     background: #FDE6EE;
     color: #C63A7F;
@@ -1412,9 +1398,6 @@ a.link_v1:hover {
   }
   .main_table.table_2 tr:nth-child(odd):hover *{
     background: #BEC0D0;
-  }
-  .main_table.table_2 tr.data_end:hover *{
-    background: #C3C6D5; 
   }
   .main_table.table_2 tr.shiken:hover *{
     background: #E7C2EB;
@@ -1484,7 +1467,7 @@ a.link_v1:hover {
     width: 100%;
     border-bottom:1px solid #DBC792;
   }
- 
+  #top_jukenhyou table tr:nth-child(odd),
   #top_jukenhyou table tr:nth-child(odd) td,
   .main_table.table_2 tr:nth-child(odd) *{
     background: #E7E8ED;
@@ -1492,10 +1475,6 @@ a.link_v1:hover {
   #top_jukenhyou table tr:nth-child(even) td,
   .main_table.table_2 tr:nth-child(even) *{
     background: #FFF8E5;
-  }
-  #top_jukenhyou table tr.data_end td,
-  .main_table.table_2 tr.data_end *{
-    background: #C3C6D5; 
   }
   #top_jukenhyou table tr.shiken td,
   .main_table.table_2 tr.shiken *{
@@ -1505,16 +1484,13 @@ a.link_v1:hover {
   }
   #top_jukenhyou table tr:nth-child(even):hover td,
   .main_table.table_2 tr:nth-child(even):hover *{
-	background: #FFF1CB;
-	font-weight: bold;
+    background: #FFF1CB;
+    font-weight: bold;
   }
+  #top_jukenhyou table tr:nth-child(odd):hover,
   #top_jukenhyou table tr:nth-child(odd):hover td,
   .main_table.table_2 tr:nth-child(odd):hover *{
     background: #BEC0D0;
-  }
-  #top_jukenhyou table tr.data_end:hover td,
-  .main_table.table_2 tr.data_end:hover *{
-    background: #C3C6D5; 
   }
   #top_jukenhyou table tr.shiken:hover td,
   .main_table.table_2 tr.shiken:hover *{
@@ -1525,25 +1501,47 @@ a.link_v1:hover {
     border-top:1px solid #DBC792;
     border-bottom:none;
   }
-  #top_jukenhyou table tr.data_end:first-of-type td,
-  .main_table.table_2 tr.data_end:first-of-type th{
-    border-top:1px solid #979CB7;
-  }
   #top_jukenhyou table tr:first-of-type td:nth-of-type(2),
-  #top_jukenhyou table tr.data_end td,
-  #top_jukenhyou table tr.data_end td:nth-of-type(2),
-  .main_table.table_2 tr.data_end *,
+  
   .main_table.table_2 tr.shiken td{
+    background: #C3C6D5;
     border:none;
   }
+
   #top_jukenhyou table tr:first-of-type td:nth-of-type(3){
     border-top:none;
     border-bottom:1px solid #DBC792;
   }
+
+
+  #top_jukenhyou table tr.data_end td,
+  #top_jukenhyou table tr.data_end td:nth-of-type(2),
+  .main_table.table_2 tr.data_end *{
+    padding: 4px 16px;
+    background: #f2f2f2;
+    color: #888;
+  }
+  #top_jukenhyou table tr.data_end td,
+  #top_jukenhyou table tr.data_end td:nth-of-type(2){
+    border:none;
+  }
+  #top_jukenhyou table tr.data_end td:last-of-type{
+    padding-bottom: 8px;
+  }
+  
+  #top_jukenhyou table tr.data_end:first-of-type td:nth-of-type(1),
+  .main_table.table_2 tr.data_end:first-of-type th:nth-of-type(1){
+    border-top:1px solid #C4C4C4;
+    border-bottom: none;
+  }
+  #top_jukenhyou table tr.data_end:first-of-type td:nth-of-type(2),
+  .main_table.table_2 tr.data_end:first-of-type th:nth-of-type(2){
+    border:none;
+  }
   #top_jukenhyou table tr.data_end td:nth-of-type(3),
-  .main_table.table_2 tr.data_end td{
+  .main_table.table_2 tr.data_end td:nth-of-type(3){
     border-top:none;
-    border-bottom:1px solid #979CB7;
+    border-bottom:1px solid #C4C4C4;
   }
 	.shoseki_box{
 		justify-content: space-evenly;
