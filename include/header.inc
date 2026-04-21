@@ -19,8 +19,8 @@
           <li><a target="_blank" href="https://shoku-ad.jp/pdf/jukennagare.pdf">受験までの流れ</a></li>
           <li><a href="/juken/mohan.html">模範解答</a></li>
           <li><a href="/juken/curriculum.html">各級カリキュラム</a></li>
-          <li><a href="/pdf/20251125_preparation.pdf">チャレンジ問題3級</a></li>
-          <li><a href="/pdf/20251125_preparation.pdf">チャレンジ問題2級</a></li>
+          <li><a href="/juken/mogi3.html">チャレンジ問題3級</a></li>
+          <li><a href="/juken/mogi2.html">チャレンジ問題2級</a></li>
           <li><a href="/pdf/20251125_preparation.pdf">チャレンジ問題1級</a></li>
         <!-- 
           <li><a href="/ado/">食生活アドバイザー<sup>&#174;</sup>とは</a></li>
