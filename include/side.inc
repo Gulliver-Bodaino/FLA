@@ -24,7 +24,7 @@
 <!--団体受験-->
 <li id="side_banner24"><a href="/dantai/" target="_blank"><img src="/img/grop_examination_min.png" ait="団体受験" class="btnover" /></a></li>
 
-<li id="side_banner25"><a href="/dantai/pdf/20260303_danntai_moushikomi.pdf" target="_blank"><img src="/img/side_banner23.jpg" ait="団体受験申込フォーム" class="btnover" /></a></li>
+	<li id="side_banner25"><a href="https://flanet.jp/dantai_form/" target="_blank"><img src="/img/side_banner23.jpg" ait="団体受験申込フォーム" class="btnover" /></a></li>
 <!--
 	<li id="side_banner25"><a href="/dantai/pdf/20250926_dantaimoushikomi.pdf" target="_blank"><img src="/img/side_banner23.jpg" ait="団体受験申込フォーム" class="btnover" /></a></li>
 	<li id="side_banner25"><a href="https://flanet.jp/dantai_form/" target="_blank"><img src="/img/side_banner23.jpg" ait="団体受験申込フォーム" class="btnover" /></a></li>
