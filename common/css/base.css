@@ -69,7 +69,13 @@ a img { border: 0; }
 
 .m_t8b0{margin: 8px 0 0;}
 
-.shadow{box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);}
+.shadow{box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, .3);}
+
+.shoseki_img img{
+	width: 160px;
+	margin-left: 24px;
+}
+
 
 /*	photo 
 -----------------------------------------------------------------------------*/
@@ -342,11 +348,6 @@ display:-ms-flexbox;
 	}
 }
 
-
-
-
-
-
 @media only screen and (max-width :450px) {
 	.layout6 > *,
 	.layout5 > *,
@@ -379,6 +380,11 @@ display:-ms-flexbox;
 	.btm_licens p.sm_w80{
 		width:80px;
 	}
+	.shoseki_img img{
+		width: 140px;
+		margin:0 10px;
+	}
+
 
 }
 /*  align
