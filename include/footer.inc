@@ -15,7 +15,7 @@
 
           <dt><a href="/juken/">個人受験</a></dt>
           <!--dd><a href="https://flanet.jp/application_form/form_b">3・2級郵便局、ゆうちょ銀行申込</a></dd-->
-          <dd><a href="/pdf/20260519_moushikomi.pdf">3・2級郵便局、ゆうちょ銀行申込</a></dd>
+          <dd><a target="_blanck" href="/pdf/20260519_moushikomi.pdf">3・2級郵便局、ゆうちょ銀行申込</a></dd>
           <dd><a href="https://flanet.jp/application_form/form_a">3級・2級クレジットカード申込</a></dd>
           <dd><a href="/pdf/20251125_preparation.pdf">1級郵便局、ゆうちょ銀行申込</a></dd>
           <dd><a href="/pdf/20251125_preparation.pdf">1級クレジットカード申込</a></dd>
