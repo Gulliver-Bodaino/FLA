@@ -477,6 +477,9 @@
 	.none_w800{
 		display:block;
 	}
+	.sm_none{
+		display: none;
+	}
 	.juken_moushikomi_box_1,
 	.top_dantai_box,
 	.top_event_imgbox_1{
