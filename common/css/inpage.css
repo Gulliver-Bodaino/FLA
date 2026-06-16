@@ -755,8 +755,9 @@ a.link_v1:hover {
   gap: 8px;
   padding: 2px 0 4px;
   color: #333;
-  border-bottom: 1px solid #ff6b00;
+  border-bottom: 2px solid #ff6b00;
   line-height: 1.6;
+  font-weight: bold;
 }
 
 .typographical_error a.link_v1::before{
@@ -778,6 +779,22 @@ a.link_v1:hover {
 .typographical_error a.link_v1:hover::before{
   border-color: #ff8d31;
 }
+.typographical_error_1 {
+  background: #f9f8ee;
+  border-left: 6px solid #B1AE8F;
+  padding: 1.2em 1.4em;
+  border-radius: 6px;
+  color: #444;
+  margin: 1.5em 0;
+  line-height: 1.7;
+}
+
+.typographical_error_1 a.link_v1 {
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: underline;
+}
+
 
 /* qa-----------------------------------------------------------------------------*/
 #qa #qa_page_title{padding-top:60px;}
