@@ -796,6 +796,19 @@ a.link_v1:hover {
 }
 
 
+.typographical_error_2 {
+  background: #FFF5ED;
+  border-left: 6px solid #D8A077;
+  padding: 1.2em 1.4em;
+  border-radius: 6px;
+  color: #444;
+  margin: 1.5em 0;
+  line-height: 1.7;
+  font-weight: bold;
+}
+
+
+
 /* qa-----------------------------------------------------------------------------*/
 #qa #qa_page_title{padding-top:60px;}
 #qa #qa_page_navi ul li.no_li{margin-right:0;}
@@ -1555,7 +1568,7 @@ a.link_v1:hover {
   #top_jukenhyou table tr:first-of-type td:nth-of-type(2),
   
   .main_table.table_2 tr.shiken td{
-    background: #C3C6D5;
+/*    background: #C3C6D5;*/
     border:none;
   }
 
