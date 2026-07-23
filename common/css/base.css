@@ -32,6 +32,7 @@ a img { border: 0; }
 
 /*	margin padding
 -----------------------------------------------------------------------------*/
+.m_0{margin: 0;}
 .mt_16p{margin-top:16px;}
 .mt_32p{margin-top:32px;}
 .mt_40p{margin-top:40px;}
