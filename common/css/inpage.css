@@ -1364,6 +1364,7 @@ a.link_v1:hover {
   overflow: hidden;
 }
 .pass_rate_box_inner p{
+  width: 160px;
   margin: 0;
   font-weight: bold;
 }
