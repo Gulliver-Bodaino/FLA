@@ -962,7 +962,7 @@ a.link_v1:hover {
 #tusin .tsushin_btn span{font-size:16px;font-weight:bold;text-align:center;margin-bottom:5px;display:block;}
 #tusin #vege_sp_page_title{color:#fff;margin-bottom:40px;padding:40px;background:url(../../img/bg_stripe.gif) 0 0;}
 #tusin .vege_certification{text-align:center;padding-bottom:50px;}
-#tusin .vege_certification img{width:300px;}
+#tusin .vege_certification img{width:322px;box-shadow: 4px 4px 4px #D3D3D3;border:1px solid #D3D3D3}
 #tusin .vege_banner{text-align:center;display:block;}
 /* gansho-----------------------------------------------------------------------------*/
 #gansho #gansho_box{margin-bottom:70px;}
