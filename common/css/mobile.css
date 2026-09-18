@@ -2888,10 +2888,6 @@
     font-size: 12px;
   }
 
-  #kyokai #kyokai_main p:first-child {
-    text-align: center;
-  }
-
   #kyokai #kyokai_img {
     margin: 0 0 10px 0px;
     float: none;
